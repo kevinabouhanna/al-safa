@@ -201,6 +201,8 @@
     </div>
 </div>
 
+
+
 <!--big Author Card -->
 <div class="bg-yellow-400">
     <div class="container max-w-1400px">
@@ -246,8 +248,11 @@
                                     <div class="font-bold ml-2">
                                         كريم الخوري
                                     </div>
+                                    <div class="flex flex-row items-center ml-2">
+                                <div class="w-3 h-h-1px bg-black-800"></div>
+                            </div>
                                     <div>
-                                        -صحافي لبناني
+                                        صحافي لبناني
                                     </div>
                                 </div>
                             </div>

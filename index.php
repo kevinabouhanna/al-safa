@@ -53,8 +53,11 @@
                             <div class="font-bold ml-2">
                                 كريم الخوري
                             </div>
+                            <div class="flex flex-row items-center ml-2">
+                                <div class="w-3 h-h-1px bg-black-800"></div>
+                            </div>
                             <div>
-                                -صحافي لبناني
+                                صحافي لبناني
                             </div>
                         </div>
                     </div>
@@ -216,8 +219,11 @@
                                     <div class="font-bold ml-2">
                                         كريم الخوري
                                     </div>
+                                    <div class="flex flex-row items-center ml-2">
+                                <div class="w-3 h-h-1px bg-black-800"></div>
+                            </div>
                                     <div>
-                                        -صحافي لبناني
+                                        صحافي لبناني
                                     </div>
                                 </div>
                             </div>
@@ -281,8 +287,11 @@
                             <div class="font-bold md:ml-2">
                                 John Doe
                             </div>
+                            <div class="flex flex-row items-center mx-2">
+                                <div class="w-3 h-h-1px bg-black-800"></div>
+                            </div>
                             <div>
-                                - Journalist
+                                 Journalist
                             </div>
                         </div>
                     </div>
@@ -318,13 +327,16 @@
                     the edge of a strike.
                 </div>
                 <div>
-                    <div class="inline-block bg-white mt-2">
+                    <div class="inline-block bg-white my-2">
                         <div class="flex items-center justify-between p-1 md:text-15px text-xs">
                             <div class="font-bold md:ml-2">
                                 John Doe
                             </div>
+                            <div class="flex flex-row items-center mx-2">
+                                <div class="w-3 h-h-1px bg-black-800"></div>
+                            </div>
                             <div>
-                                - Journalist
+                                 Journalist
                             </div>
                         </div>
                     </div>

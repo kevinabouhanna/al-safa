@@ -605,6 +605,11 @@ html{
   font-size: 14px !important;
 }
 
+body{
+  position:relative;
+  margin: 0 auto
+}
+
 .btn{
   border-radius: 9999px
 }
