@@ -1,0 +1,24 @@
+{
+  "name": "al-safa-project-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "tailwindcss": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss build tailwind.css -o styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codeminos/al-safa-project-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codeminos/al-safa-project-design/issues"
+  },
+  "homepage": "https://github.com/Codeminos/al-safa-project-design#readme"
+}
