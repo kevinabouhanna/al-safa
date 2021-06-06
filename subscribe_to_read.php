@@ -12,10 +12,10 @@
 </head>
 
 <body dir="rtl">
-<div class="w-full z-50 fixed top-2/4 left-0 right-0 shadow-outter-dash p-0 h-full flex flex-row justify-center bg-black-100">
-    <div class="w-full h-2/4 flex flex-col justify-center max-w-1400px">
-        <div class="grid grid-cols-2 content-center">
-            <div class="grid col-span-2 lg:col-span-1">
+<div class="w-full z-50 fixed md:top-2/4 top-1/4 left-0 right-0 shadow-outter-dash p-0 h-full flex flex-row justify-center bg-black-100">
+    <div class="w-full h-2/4  flex flex-col justify-center max-w-1400px">
+        <div class="grid grid-cols-2 content-center px-5 lg:px-0">
+            <div class="grid col-span-2 lg:col-span-1 mb-10 lg:mb-0 ">
                 <div class="flex flex-col justify-start">
                     <h1 class="p-3 md:text-h1 text-s-1 font-bold my-7">
                     اقرأ هذه القصة مجاناً
@@ -25,7 +25,7 @@
                     </p>
                 </div>
             </div>
-            <div class="grid lg:col-start-2 lg:col-end-3 justify-end row-start-1 col-span-2">
+            <div class="grid lg:col-start-2 lg:col-end-3 lg:justify-end justify-center row-start-2 lg:row-start-1 col-span-2">
                 <div class="grid grid-col-1 gap-y-3">
                     <button class="bg-white text-lg h-20 shadow p-2 rounded w-full flex items-center justify-center gap-2 px-12">
                         <i class="icon-mail"></i>
