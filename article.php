@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<div class="container mx-auto">
+<div class="container mx-auto max-w-1400px">
     <div class="md:text-h1 text-h4 font-bold">
         غزة: مليونا شخص رهينة القرار الإسرائيلي لإدخال اللقاح
     </div>

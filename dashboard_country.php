@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body dir="rtl">
-<div class="container">
+<div class="container max-w-1400px">
     <div class="absolute w-full p-offset-md top-0">
         <div class="w-full h-788px z-50 shadow-outter-dash px-offset-md relative">
             <div class="flex flex-row justify-center w-full pt-12">

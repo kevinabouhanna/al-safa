@@ -10,7 +10,7 @@
 </head>
 <body dir="rtl" class="bg-black-100">
 <?php include 'header_auth.php'; ?>
-<div class="container">
+<div class="container  max-w-1400px">
 <div class="pt-18 pb-14 px-4 rounded">
     <div class="w-full bg-white md:px-sign-in-p12 shadow-lg px-5">
         <div class="mt-10 flex flex-row justify-center pt-14">

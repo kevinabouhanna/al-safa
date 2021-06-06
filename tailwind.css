@@ -16,11 +16,6 @@ html{
     font-size: 14px !important;
 }
 
-body{
-    max-width: 1400px !important;
-    margin: 0 auto;
-}
-
 .btn{
     @apply rounded-full px-4 py-2 focus:outline-none
 }

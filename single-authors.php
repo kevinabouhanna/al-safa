@@ -11,7 +11,7 @@
 <?php include 'header.php'; ?>
 
 <div class="bg-yellow-300">
-    <div class="container">
+    <div class="container max-w-1400px">
         <div class="bg-black-100 my-5 h-1"></div>
         <div>
             <div class="grid grid-cols-1 md:grid-cols-5 gap-4 pb-6">
@@ -45,12 +45,12 @@
     </div>
 </div>
 
-<div class="py-10 text-center container">
+<div class="py-10 text-center container max-w-1400px">
     <div class="text-3xl font-bold md:text-h1">
         ١٢ مساهمات
     </div>
 </div>
-<div class="container py-10 mt-5">
+<div class="container py-10 mt-5 max-w-1400px">
     <div class="grid grid-cols-4 gap-4">
         <div class="col-span-4">
             <?php
@@ -63,7 +63,7 @@
     </div>
 </div>
 
-<div class="container py-20">
+<div class="container py-20 max-w-1400px">
     <div class="text-center text-gray-500">
         ١ -  ٢٢ من ٥٥ نتائج
     </div>

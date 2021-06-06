@@ -10,7 +10,7 @@
 <body dir="rtl">
 <?php include 'header.php'; ?>
 
-<div class="py-16 text-center container">
+<div class="py-16 text-center container max-w-1400px">
     <div class="text-h1 font-bold">
         نتائج البحث
     </div>
@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container max-w-1400px">
     <div class="flex items-center border-b gap-6 pb-2">
         <a href="/search.php">
             مقالات
@@ -34,7 +34,7 @@
     </div>
 </div>
 
-<div class="container py-10 mt-10">
+<div class="container py-10 mt-10 max-w-1400px">
     <div class="grid md:grid-cols-4 grid-cols-1 gap-4">
         <?php
         for ($i = 1; $i < 21; $i++) {
@@ -44,7 +44,7 @@
     </div>
 </div>
 
-<div class="container py-20">
+<div class="container py-20 max-w-1400px">
     <div class="text-center text-gray-500">
         ١ -  ٢٢ من ٥٥ نتائج
     </div>

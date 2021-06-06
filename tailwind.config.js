@@ -6,10 +6,6 @@ module.exports = {
             center: true,
             padding: {
                 DEFAULT: '1rem',
-                sm: '2rem',
-                lg: '4rem',
-                xl: '5rem',
-                '2xl': '6rem',
             }
         },
         screens: {
@@ -84,7 +80,7 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                'sans': ['DroidKufi']
+                'sans': ['DroidKufi', 'LibreBaskerville']
             },
             fontSize: {
                 'icon': '2.5rem',
@@ -124,6 +120,7 @@ module.exports = {
                 'max-width': '1400px',
             },
             height: {
+                'h-1px': '0.0714rem',
                 'h-i': '3.720rem',
                 'h-70': '17.725rem',
                 '30px': '2.142rem',
@@ -197,6 +194,10 @@ module.exports = {
             gap: {
                 '2%': '2%',
             },
+            maxWidth:{
+                "1400px":"1400px",
+                "900px": "900px",
+            }
         },
     },
     variants: {

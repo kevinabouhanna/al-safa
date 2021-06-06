@@ -10,7 +10,7 @@
 <body dir="rtl">
 <?php include 'header.php'; ?>
 
-<div class="container pb-20">
+<div class="container pb-20 max-w-1400px">
     <div class="md:text-h1 text-h3 font-bold text-center py-10">
         بودكاست
     </div>

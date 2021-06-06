@@ -1,4 +1,4 @@
-<div class="w-full container flex items-center justify-between bg-black-800 py-3">
+<div class="w-full container max-w-1400px flex items-center justify-between bg-black-800 py-3">
     <div class="text-white">
         <i class="icon-youtube"></i>
         <i class="icon-facebook1"></i>

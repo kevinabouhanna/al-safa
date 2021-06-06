@@ -30,7 +30,7 @@
                     <div class="flex items-center justify-between p-1">
                         <i class="icon-time ml-2 text-red-700"></i>
                         <div>
-                            7 دقائق للقراءة
+                        ٧ دقائق للقراءة
                         </div>
                     </div>
                 </div>

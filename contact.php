@@ -23,7 +23,7 @@
 </div>
 
 
-<div class="w-full md:container">
+<div class="w-full md:container max-w-1400px">
     <div class="bg-black-100">
         <div class="grid grid-cols-1 text-lg md:grid-cols-2 grid-rows-1 gap-1 mt-4 text-md p-4">
             <div class="flex items-center gap-2">

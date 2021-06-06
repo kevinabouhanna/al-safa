@@ -10,20 +10,20 @@
 <body dir="rtl">
 <?php include 'header.php'; ?>
 
-<div class="container pb-20">
-    <div class="md:text-h1 text-h3 py-5 font-bold text-center md:py-10">
+<div class="container pb-20 max-w-1400px">
+    <div class="md:text-h1 text-h3 font-bold text-center md:py-14 py-8" >
         موقف
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-14">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-18">
         <?php
         for ($i = 1; $i < 13; $i++) {
             $titleFontSize = 'text-h4';
-            include 'components/article_in_grid.php';
+            include 'components/article_in_grid_date.php';
         }
         ?>
     </div>
 
-    <div class="pb-20 text-center hidden md:block">
+    <div class="pb-10 text-center hidden md:block mt-20">
         <div class="text-center text-gray-500">
             ١ - ٢٢ من ٥٥ مساهمات
         </div>

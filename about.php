@@ -19,18 +19,18 @@
 
 
 <!--heading-->
-<div class="flex flex-row justify-center">
-    <h1 class="p-3 text-3xl font-bold my-5">
+<div class="flex flex-row justify-center md:my-14 my-8">
+    <h1 class="p-3 text-3xl md:text-h1 font-bold my-5">
         هويتنا
     </h1>
 </div>
 
 <!--Image with texts and paragraphes under it-->
-<div class="container">
+<div class="container max-w-1400px">
     <div>
         <img src="./images/1.png" alt="" class="mb-6">
     </div>
-    <div class="mb-6 space-y-10 text-16px md:text-s-1">
+    <div class="mb-6 space-y-10 text-16px md:text-s-1 mt-10">
         <p class="mb-4 text-normal text-md tracking-wide leading-8">
             في الليلة الأولى في منزلها بعد رجوعها من المستشفى، توقفت جدتي عن سؤالي مراراً وتكراراً بالفرنسية، بين
             نوبات الألم الذي يعتصرها، “ماذا فعلتُ؟”.
@@ -57,12 +57,12 @@
         </p>
     </div>
 
-    <div class="mt-9 md:mt-20">
-        <h1 class="text-3xl md:text-4xl font-bold">
+    <div class="mt-9 md:mt-28">
+        <h1 class="text-3xl md:text-h1 font-bold">
             فريقنا
         </h1>
-
     </div>
+    <div class="w-full h-h-1px bg-black-300 mt-12"></div>
 
     <!--Author Cards-->
     <div class="mt-14 mb-14 md:mt-16 mb-20">
@@ -73,7 +73,7 @@
                 </div>
                 <div class="flex flex-col flex-wrap">
 
-                    <h1 class="text-2xl my-3 text-black font-bold flex justify-center">بسكال صوما</h1>
+                    <h1 class="text-2xl md:text-h4 my-3 text-black font-bold flex justify-center">بسكال صوما</h1>
                     <h2 class="flex justify-center mb-3">شريك مؤسّس ورئيسة مجلس إدارة</h2>
 
 
@@ -105,7 +105,7 @@
                 </div>
                 <div class="flex flex-col flex-wrap">
 
-                    <h1 class="text-2xl my-3 text-black font-bold flex justify-center">بسكال صوما</h1>
+                    <h1 class="text-2xl my-3 md:text-h4 text-black font-bold flex justify-center">بسكال صوما</h1>
                     <h2 class="flex justify-center mb-3">شريك مؤسّس ورئيسة مجلس إدارة</h2>
 
 
@@ -138,7 +138,7 @@
                 </div>
                 <div class="flex flex-col flex-wrap">
 
-                    <h1 class="text-2xl my-3 text-black font-bold flex justify-center">بسكال صوما</h1>
+                    <h1 class="text-2xl my-3 md:text-h4 text-black font-bold flex justify-center">بسكال صوما</h1>
                     <h2 class="flex justify-center mb-3">شريك مؤسّس ورئيسة مجلس إدارة</h2>
 
 
@@ -191,7 +191,7 @@
             </p>
 
         </div>
-        <div class="container absolute bottom-15">
+        <div class="container absolute bottom-15 max-w-1400px">
             <div class="w-full">
                 <div>
                     <img src="../svgs/about-us-section.svg" alt="About Us Image" class="w-full">
@@ -202,48 +202,87 @@
 </div>
 
 <!--big Author Card -->
-<div class="bg-yellow-300">
-    <div class="container">
-        <div class="bg-black-100 my-5 h-1"></div>
+<div class="bg-yellow-400">
+    <div class="container max-w-1400px">
+        <div class="flex items-center justify-between pt-10">
+            <div class="md:text-h1 text-h4 font-bold">
+                الأكثر قراءة
+            </div>
+            <a href="#"><div class="flex flex-row items-center"><p> الجميع</p><i class="icon-arrow_left text-s-1"></i></div>
+            </a>
+        </div>
+        <div class="bg-black-100 mt-5 h-1 mb-10"></div>
         <div>
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 pb-6">
-                <div class="col-span-2">
-                    <img src="images/article_4.png" alt="" class="w-full md:h-80 h-72 object-cover object-center mt-4">
+            <div class="grid grid-cols-1 md:grid-cols-5 md:gap-4">
+                <div class="col-span-1 md:col-span-2 row-start-1 row-end-2">
+                    <img src="images/article_4.png" alt="" class="w-full h-96 object-cover object-center">
                 </div>
-                <div class="col-span-3">
+                <div class="col-span-1 md:col-span-3 row-start-2 row-end-3 md:row-start-1 md:row-end-2 mt-5 md:mt-0">
                     <div>
-                        <div class="pb-2 pt-1 pr-5 md:text-s-1">
+                        <div class="w-max flex flex-row items-center">
+                            <div class="pb-2 pt-1 pr-5">
                             صحافية لبنانية
+                            </div>
+                            <div class="flex flex-row items-center rounded-full bg-black-100 mr-3">
+                                <div class="flex items-center justify-between p-1">
+                                    <i class="icon-time ml-2 text-red-700"></i>
+                                    <div class="text-15px">
+                                    ٧ دقائق للقراءة
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="md:text-h1 text-h4 font-bold leading-relaxed">
+                        <div class="md:text-h1 text-h4 font-bold py-2 leading-relaxed">
                         باسكال صوما
+                        </div>
+                        <div>
                         </div>
                         <div class="py-2 md:text-s-1 text-16px">
                             بباسكال صوما في لبنان وترعرعت في تشيلي ، وهي مؤلفة عدد من الكتب الأكثر مبيعًا والتي نالت استحسان النقاد ، بما في ذلك The House of the Spirits و Of Love and Shadows و Eva Luna و Paula و In the Midst of Winter. تُرجمت كتبها إلى أكثر من اثنتين وأربعين لغة وبيعت منها أكثر من أربعة وسبعين مليون نسخة حول العالم.
                         </div>
-                        <div class="flex flex-row">
-                            <button class="bg-red-700 text-white rounded-full py-1 px-6 flex items-center justify-between   focus:outline-none text-base">
+                        <div>
+                            <div class="inline-block mt-2">
+                                <div class="flex items-center justify-between p-1 text-15px">
+                                    <div class="font-bold ml-2">
+                                        كريم الخوري
+                                    </div>
+                                    <div>
+                                        -صحافي لبناني
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex md:flex-row mt-8 justify-center md:justify-start w-full flex-col items-center">
+                            <button class="bg-red-700 text-white rounded-full w-max py-1 px-6 flex items-center justify-between   focus:outline-none text-base">
                                 <p class="font-sans px-0.5 leading-8" >تابعني على الصفا</p>
                             </button>
-                            <button class="bg-transparent text-black-800 rounded-full py-1 pl-5 pr-4 border-gray-300 border flex items-center justify-between focus:outline-none text-base">
-                                <i class="icon-twitter"></i>
-                                <p class="font-sans leading-8 mr-2 px-1">تابعني على تويتر</p>
-                            </button>
+                            <div class="md:mr-5 mt-5 md:mt-0">
+                                <button class="bg-transparent text-black-800 rounded-full py-1 pl-5 pr-4 border-gray-300 border flex items-center justify-between focus:outline-none text-base">
+                                    <i class="icon-twitter"></i>
+                                    <p class="font-sans leading-8 mr-2 px-1">تابعني على تويتر</p>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 my-10 col-span-5">
+                            <i class="icon-radio-botton"></i>
+                            <i class="icon-radio-botton mr-2"></i>
+                            <i class="icon-radio-botton mr-2"></i>
+                            <i class="icon-radio-botton mr-2 text-red-800"></i>
+                        </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container">
+<div class="container max-w-1400px mb-10">
     <div class="mt-14 md:mt-20">
-        <h1 class="text-3xl md:text-4xl font-bold">
+        <h1 class="text-3xl md:text-h1 font-bold">
             الجهات المانحة
         </h1>
-
     </div>
+    <div class="w-full h-h-1px bg-black-300 mt-10"></div>
 
 </div>
 <div>

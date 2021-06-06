@@ -1,5 +1,5 @@
 <div class="bg-white">
-    <div class="container flex items-center grid grid-cols-3 py-2 md:py-10" id="regularTopHeader">
+    <div class="container flex items-center grid grid-cols-3 py-2 md:py-10 max-w-1400px" id="regularTopHeader">
         <div class="">
             <button class="btn btn-yellow hidden md:block text-15px px-3">
                 اشترك في الصحيفة

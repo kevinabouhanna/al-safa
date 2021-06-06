@@ -10,7 +10,7 @@
 <body dir="rtl">
 <?php include 'header-big.php'; ?>
 
-<div class="container text-black-800">
+<div class="container text-black-800 max-w-1400px">
     <div class="py-6 relative hidden md:block">
         <img src="images/1.png" alt="">
         <div class="absolute top-0 h-full px-20">
@@ -42,7 +42,7 @@
                         <div class="flex items-center justify-between p-1">
                             <i class="icon-time ml-2 text-red-700"></i>
                             <div>
-                                7 دقائق للقراءة
+                            ٧ دقائق للقراءة
                             </div>
                         </div>
                     </div>
@@ -62,24 +62,24 @@
             </div>
         </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
         <?php
         for ($i = 1; $i < 3; $i++) {
             $titleFontSize = 'text-h2';
-            include 'components/article_in_grid.php';
+            include 'components/article_in_grid_main.php';
         }
         ?>
     </div>
-    <div class="bg-black-100 my-10 h-1"></div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-black-100 my-16 h-1 "></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-20">
         <?php
         for ($i = 3; $i < 9; $i++) {
             $titleFontSize = 'text-h4';
-            include 'components/article_in_grid.php';
+            include 'components/article_in_grid_without_icon.php';
         }
         ?>
     </div>
-    <div class="bg-black-100 my-10 h-1"></div>
+    <div class="bg-black-100 mt-16 mb-10 h-1"></div>
     <div class="hidden py-6 md:flex items-center justify-center gap-2">
         <div class="w-max relative md:flex items-center justify-center md:text-s-1">
             <div class="absolute top-0 -right-14">
@@ -109,7 +109,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-black-100 my-10 h-1"></div>
+    <div class="bg-black-100 mt-10 mb-16 h-1"></div>
     <div class="mt-6">
         <div class="flex items-center justify-between">
             <div class="text-h1 font-bold">
@@ -125,13 +125,27 @@
     </div>
     <div class="bg-black-100 my-5 h-1"></div>
     <div class="mt-4">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="md:grid grid-cols-1 md:grid-cols-4 gap-6 hidden">
             <?php
-            for ($i = 1; $i < 5; $i++) {
-                $titleFontSize = 'text-2xl';
-                include 'components/article_text_over.php';
-            }
+                for ($i = 1; $i < 5; $i++) {
+                    $titleFontSize = 'text-2xl';
+                    include 'components/article_text_over.php';
+                }
             ?>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 sm:hidden">
+            <?php
+                for ($i = 1; $i < 2; $i++) {
+                    $titleFontSize = 'text-2xl';
+                    include 'components/article_text_over.php';
+                }
+            ?>
+        </div>
+        <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 mt-12 pb-20">
+        <i class="icon-radio-botton"></i>
+        <i class="icon-radio-botton mr-2"></i>
+        <i class="icon-radio-botton mr-2"></i>
+        <i class="icon-radio-botton mr-2 text-red-800"></i>
         </div>
     </div>
     <div class="bg-black-100 my-10 h-1"></div>
@@ -156,8 +170,8 @@
     <div class="bg-black-100 my-10 h-1"></div>
 </div>
 
-<div class="bg-yellow-300">
-    <div class="container">
+<div class="bg-yellow-400">
+    <div class="container max-w-1400px">
         <div class="flex items-center justify-between pt-10">
             <div class="text-h1 font-bold">
                 الأكثر قراءة
@@ -165,13 +179,13 @@
             <a href="#"><div class="flex flex-row items-center"><p> الجميع</p><i class="icon-arrow_left text-s-1"></i></div>
             </a>
         </div>
-        <div class="bg-black-100 my-5 h-1"></div>
+        <div class="bg-black-100 mt-5 h-1 mb-10"></div>
         <div>
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 pb-6">
-                <div class="col-span-2">
-                    <img src="images/article_4.png" alt="" class="w-full h-72 object-cover object-center">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+                <div class="col-span-1 md:col-span-2 row-start-1 row-end-2">
+                    <img src="images/article_4.png" alt="" class="w-full h-96 object-cover object-center">
                 </div>
-                <div class="col-span-3">
+                <div class="col-span-1 md:col-span-3 row-start-2 row-end-3 md:row-start-1 md:row-end-2">
                     <div>
                         <div class="w-max flex flex-row items-center">
                             <div class="w-7 h-0.5 bg-black-700 rounded-full"></div>
@@ -187,7 +201,7 @@
                                 <div class="flex items-center justify-between p-1">
                                     <i class="icon-time ml-2 text-red-700"></i>
                                     <div class="text-15px">
-                                        7 دقائق للقراءة
+                                    ٧ دقائق للقراءة
                                     </div>
                                 </div>
                             </div>
@@ -210,13 +224,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 my-10 col-span-5">
+                            <i class="icon-radio-botton"></i>
+                            <i class="icon-radio-botton mr-2"></i>
+                            <i class="icon-radio-botton mr-2"></i>
+                            <i class="icon-radio-botton mr-2 text-red-800"></i>
+                        </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container pb-12 pt-10" dir="ltr">
-    <div class="mt-12 mb-4 pb-10">
+<div class="container pb-12 pt-10 max-w-1400px" dir="ltr">
+    <div class="mt-12 mb-4 pb-2">
         <div class="flex items-center justify-between">
             <div class="md:text-h1 text-24px font-bold">
                 Articles In Foreign Languages
@@ -225,6 +245,7 @@
             </a>
         </div>
     </div>
+    <div class="bg-black-300 w-full h-0.5 mb-10"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
             <img class="w-full h-72 object-cover object-center" src="images/article_10.png" alt="">
@@ -250,7 +271,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-6">
+                <div class="py-2 md:text-s-1 text-sm leading-8">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>
@@ -292,7 +313,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-6">
+                <div class="py-2 md:text-s-1 text-sm leading-8">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>

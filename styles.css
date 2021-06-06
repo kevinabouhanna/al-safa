@@ -1,4 +1,4 @@
-/*! tailwindcss v2.1.4 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -366,7 +366,7 @@ ul {
  */
 
 html {
-  font-family: DroidKufi; /* 1 */
+  font-family: DroidKufi, LibreBaskerville; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -574,8 +574,6 @@ video {
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 }
 
@@ -588,34 +586,23 @@ video {
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    padding-right: 4rem;
-    padding-left: 4rem;
   }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-right: 5rem;
-    padding-left: 5rem;
   }
 }
 
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-    padding-right: 6rem;
-    padding-left: 6rem;
   }
 }
 
 html{
   font-size: 14px !important;
-}
-
-body{
-  max-width: 1400px !important;
-  margin: 0 auto;
 }
 
 .btn{
@@ -10101,7 +10088,7 @@ body{
 }
 
 .font-sans {
-  font-family: DroidKufi;
+  font-family: DroidKufi, LibreBaskerville;
 }
 
 .font-serif {
@@ -10490,6 +10477,10 @@ body{
 
 .h-screen {
   height: 100vh;
+}
+
+.h-h-1px {
+  height: 0.0714rem;
 }
 
 .h-h-i {
@@ -14113,6 +14104,14 @@ body{
 
 .max-w-screen-2xl {
   max-width: 1536px;
+}
+
+.max-w-1400px {
+  max-width: 1400px;
+}
+
+.max-w-900px {
+  max-width: 900px;
 }
 
 .min-h-0 {
@@ -32504,8 +32503,6 @@ body{
   @media (min-width: 640px) {
     .sm\:container {
       max-width: 640px;
-      padding-right: 2rem;
-      padding-left: 2rem;
     }
   }
 
@@ -32518,24 +32515,18 @@ body{
   @media (min-width: 1024px) {
     .sm\:container {
       max-width: 1024px;
-      padding-right: 4rem;
-      padding-left: 4rem;
     }
   }
 
   @media (min-width: 1280px) {
     .sm\:container {
       max-width: 1280px;
-      padding-right: 5rem;
-      padding-left: 5rem;
     }
   }
 
   @media (min-width: 1536px) {
     .sm\:container {
       max-width: 1536px;
-      padding-right: 6rem;
-      padding-left: 6rem;
     }
   }
 
@@ -41899,7 +41890,7 @@ body{
   }
 
   .sm\:font-sans {
-    font-family: DroidKufi;
+    font-family: DroidKufi, LibreBaskerville;
   }
 
   .sm\:font-serif {
@@ -42288,6 +42279,10 @@ body{
 
   .sm\:h-screen {
     height: 100vh;
+  }
+
+  .sm\:h-h-1px {
+    height: 0.0714rem;
   }
 
   .sm\:h-h-i {
@@ -45911,6 +45906,14 @@ body{
 
   .sm\:max-w-screen-2xl {
     max-width: 1536px;
+  }
+
+  .sm\:max-w-1400px {
+    max-width: 1400px;
+  }
+
+  .sm\:max-w-900px {
+    max-width: 900px;
   }
 
   .sm\:min-h-0 {
@@ -64132,8 +64135,6 @@ body{
   @media (min-width: 640px) {
     .md\:container {
       max-width: 640px;
-      padding-right: 2rem;
-      padding-left: 2rem;
     }
   }
 
@@ -64146,24 +64147,18 @@ body{
   @media (min-width: 1024px) {
     .md\:container {
       max-width: 1024px;
-      padding-right: 4rem;
-      padding-left: 4rem;
     }
   }
 
   @media (min-width: 1280px) {
     .md\:container {
       max-width: 1280px;
-      padding-right: 5rem;
-      padding-left: 5rem;
     }
   }
 
   @media (min-width: 1536px) {
     .md\:container {
       max-width: 1536px;
-      padding-right: 6rem;
-      padding-left: 6rem;
     }
   }
 
@@ -73527,7 +73522,7 @@ body{
   }
 
   .md\:font-sans {
-    font-family: DroidKufi;
+    font-family: DroidKufi, LibreBaskerville;
   }
 
   .md\:font-serif {
@@ -73916,6 +73911,10 @@ body{
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-h-1px {
+    height: 0.0714rem;
   }
 
   .md\:h-h-i {
@@ -77539,6 +77538,14 @@ body{
 
   .md\:max-w-screen-2xl {
     max-width: 1536px;
+  }
+
+  .md\:max-w-1400px {
+    max-width: 1400px;
+  }
+
+  .md\:max-w-900px {
+    max-width: 900px;
   }
 
   .md\:min-h-0 {
@@ -95760,8 +95767,6 @@ body{
   @media (min-width: 640px) {
     .lg\:container {
       max-width: 640px;
-      padding-right: 2rem;
-      padding-left: 2rem;
     }
   }
 
@@ -95774,24 +95779,18 @@ body{
   @media (min-width: 1024px) {
     .lg\:container {
       max-width: 1024px;
-      padding-right: 4rem;
-      padding-left: 4rem;
     }
   }
 
   @media (min-width: 1280px) {
     .lg\:container {
       max-width: 1280px;
-      padding-right: 5rem;
-      padding-left: 5rem;
     }
   }
 
   @media (min-width: 1536px) {
     .lg\:container {
       max-width: 1536px;
-      padding-right: 6rem;
-      padding-left: 6rem;
     }
   }
 
@@ -105155,7 +105154,7 @@ body{
   }
 
   .lg\:font-sans {
-    font-family: DroidKufi;
+    font-family: DroidKufi, LibreBaskerville;
   }
 
   .lg\:font-serif {
@@ -105544,6 +105543,10 @@ body{
 
   .lg\:h-screen {
     height: 100vh;
+  }
+
+  .lg\:h-h-1px {
+    height: 0.0714rem;
   }
 
   .lg\:h-h-i {
@@ -109167,6 +109170,14 @@ body{
 
   .lg\:max-w-screen-2xl {
     max-width: 1536px;
+  }
+
+  .lg\:max-w-1400px {
+    max-width: 1400px;
+  }
+
+  .lg\:max-w-900px {
+    max-width: 900px;
   }
 
   .lg\:min-h-0 {
@@ -127388,8 +127399,6 @@ body{
   @media (min-width: 640px) {
     .xl\:container {
       max-width: 640px;
-      padding-right: 2rem;
-      padding-left: 2rem;
     }
   }
 
@@ -127402,24 +127411,18 @@ body{
   @media (min-width: 1024px) {
     .xl\:container {
       max-width: 1024px;
-      padding-right: 4rem;
-      padding-left: 4rem;
     }
   }
 
   @media (min-width: 1280px) {
     .xl\:container {
       max-width: 1280px;
-      padding-right: 5rem;
-      padding-left: 5rem;
     }
   }
 
   @media (min-width: 1536px) {
     .xl\:container {
       max-width: 1536px;
-      padding-right: 6rem;
-      padding-left: 6rem;
     }
   }
 
@@ -136783,7 +136786,7 @@ body{
   }
 
   .xl\:font-sans {
-    font-family: DroidKufi;
+    font-family: DroidKufi, LibreBaskerville;
   }
 
   .xl\:font-serif {
@@ -137172,6 +137175,10 @@ body{
 
   .xl\:h-screen {
     height: 100vh;
+  }
+
+  .xl\:h-h-1px {
+    height: 0.0714rem;
   }
 
   .xl\:h-h-i {
@@ -140795,6 +140802,14 @@ body{
 
   .xl\:max-w-screen-2xl {
     max-width: 1536px;
+  }
+
+  .xl\:max-w-1400px {
+    max-width: 1400px;
+  }
+
+  .xl\:max-w-900px {
+    max-width: 900px;
   }
 
   .xl\:min-h-0 {
@@ -159016,8 +159031,6 @@ body{
   @media (min-width: 640px) {
     .\32xl\:container {
       max-width: 640px;
-      padding-right: 2rem;
-      padding-left: 2rem;
     }
   }
 
@@ -159030,24 +159043,18 @@ body{
   @media (min-width: 1024px) {
     .\32xl\:container {
       max-width: 1024px;
-      padding-right: 4rem;
-      padding-left: 4rem;
     }
   }
 
   @media (min-width: 1280px) {
     .\32xl\:container {
       max-width: 1280px;
-      padding-right: 5rem;
-      padding-left: 5rem;
     }
   }
 
   @media (min-width: 1536px) {
     .\32xl\:container {
       max-width: 1536px;
-      padding-right: 6rem;
-      padding-left: 6rem;
     }
   }
 
@@ -168411,7 +168418,7 @@ body{
   }
 
   .\32xl\:font-sans {
-    font-family: DroidKufi;
+    font-family: DroidKufi, LibreBaskerville;
   }
 
   .\32xl\:font-serif {
@@ -168800,6 +168807,10 @@ body{
 
   .\32xl\:h-screen {
     height: 100vh;
+  }
+
+  .\32xl\:h-h-1px {
+    height: 0.0714rem;
   }
 
   .\32xl\:h-h-i {
@@ -172423,6 +172434,14 @@ body{
 
   .\32xl\:max-w-screen-2xl {
     max-width: 1536px;
+  }
+
+  .\32xl\:max-w-1400px {
+    max-width: 1400px;
+  }
+
+  .\32xl\:max-w-900px {
+    max-width: 900px;
   }
 
   .\32xl\:min-h-0 {

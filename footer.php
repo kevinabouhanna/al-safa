@@ -1,5 +1,5 @@
 <div class="bg-black-800">
-    <div class="container">
+    <div class="container max-w-1400px">
         <div class="grid grid-cols-1 md:grid-cols-6 gap-10 text-white py-10 md:h-408px pt-16">
             <div class=" flex flex-row justify-center">
                 <i class="icon-logo text-white 2xl:text-89px xl:text-7xl md:text-5xl text-7xl"></i>
