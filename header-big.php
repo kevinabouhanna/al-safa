@@ -1,7 +1,7 @@
 <div class="bg-white">
     <div class="container flex items-center grid grid-cols-3 py-2 md:py-12 max-w-1400px" id="regularTopHeader">
         <div class="">
-            <button class="btn btn-yellow hidden md:block text-15px px-3">
+            <button class="btn btn-yellow hidden md:block text-15px px-6">
                 اشترك في الصحيفة
             </button>
             <button class="btn block sm:hidden">
@@ -14,14 +14,14 @@
             </a>
         </div>
         <div class="hidden md:flex items-center justify-end">
-            <div class="ml-6 flex items-center justify-between cursor-pointer" onclick="searchPreview()">
+            <div class="ml-6 flex items-center justify-between cursor-pointer h-10" onclick="searchPreview()">
                 <div class="text-15px">
                     بحث
                 </div>
-                <i class="icon-search_24px mr-4"></i>
+                <i class="icon-search_24px mr-3 text-18px"></i>
             </div>
-            <button class="btn btn-white flex items-center justify-between">
-                <i class="icon-user_24px ml-4"></i>
+            <button class="btn btn-white flex items-center justify-between border-black-400">
+                <i class="icon-user_24px ml-3 text-18px"></i>
                 <div class="text-15px">
                     تسجيل الدخول
                 </div>
@@ -45,7 +45,7 @@
             <i class="text-h3 icon-close cursor-pointer" onclick="closeSearchPreview()"></i>
         </div>
     </div>
-    <div class="hidden md:flex items-center justify-center bg-black-100 py-3 h-20 text-2xl text-black-800 gap-8 w-full">
+    <div class="hidden md:flex items-center justify-center bg-black-100 py-3 h-20 text-2xl text-black-800 gap-y-8 gap-x-12 w-full">
         <a href="articles.php">
             موقف
         </a>

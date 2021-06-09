@@ -9,12 +9,13 @@
         </div>
         <div>
             <div class="md:flex flex-row w-auto hidden text-white ">
-                <div class="ml-4">
-                    <p><span class="text-gray-300">Website by</span> Maze</p>
+                <div class="ml-4 text-sm">
+                    <p><span class="text-gray-200">Website by</span> Maze</p>
                 </div>
                 <div class="border-gray-300 border-r h-5 mt-1 ml-4"></div>
-                <div>
-                    <p><span class="text-gray-300"> Safa news &copy; 2020</span></p>
+                <div class="flex flex-row text-sm">
+                    <p class="ml-2"> Safa news</p>
+                    <p class="text-gray-200">2020 &copy;</p>
                 </div>
 
             </div>

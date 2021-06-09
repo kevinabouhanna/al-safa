@@ -11,36 +11,39 @@
 <?php include 'header-big.php'; ?>
 
 <div class="container text-black-800 max-w-1400px">
-    <div class="py-6 relative hidden md:block">
-        <img src="images/1.png" alt="">
+    <div class="flex flex-row justify-center w-full pt-16">
+        <div class="h-26 w-788px bg-black-500"></div>
+    </div>
+    <div class="pb-6 pt-16 relative hidden md:block">
+        <img src="images/1.png" alt="Hero Image">
         <div class="absolute top-0 h-full px-20">
             <div class="flex flex-col justify-end h-full flex-wrap text-black-800 pb-20">
                 <div class="flex flex-col justify-center">
                     <div class="flex flex-row items-center w-max" style="background-color: rgba(255,255,255,.8)">
                         <div class="w-7 h-0.5 bg-black-700 rounded-full"></div>
-                        <div class="inline-block px-6 py-2">
+                        <div class="inline-block px-6 py-2 leading-hero py-4">
                             بالعربي
                         </div>
                     </div>
                 </div>
                 <div>
                 </div>
-                <div>
-                    <div class="inline-block bg-white px-6 md:text-h1 text-3xl font-bold py-3"
+                <div class="flex flex-row items-center">
+                    <div class="inline-block bg-white px-6 md:text-h1 text-3xl font-bold leading-hero"
                          style="background-color: rgba(255,255,255,.8)">
                         جامعو خردة قاصرون ينبشون
                     </div>
                 </div>
                 <div>
-                    <div class="inline-block bg-white px-6 text-4xl md:text-h1 font-bold py-3"
+                    <div class="inline-block bg-white px-6 text-4xl md:text-h1 font-bold py-3 leading-hero"
                          style="background-color: rgba(255,255,255,.8)">
                         كنز لبنان المدفون في النفايات
                     </div>
                 </div>
                 <div>
                     <div class="inline-block rounded-full bg-white mt-4 px-1 text-15px">
-                        <div class="flex items-center justify-between p-1">
-                            <i class="icon-time ml-2 text-red-700"></i>
+                        <div class="flex items-center justify-between p-1 px-2">
+                            <i class="icon-time ml-2 text-red-700 text-18px"></i>
                             <div>
                             ٧ دقائق للقراءة
                             </div>
@@ -49,7 +52,7 @@
                 </div>
                 <div>
                     <div class="inline-block bg-white mt-4">
-                        <div class="flex items-center justify-between p-1 text-15px">
+                        <div class="flex items-center justify-between px-6 text-15px py-3">
                             <div class="font-bold ml-2">
                                 كريم الخوري
                             </div>
@@ -65,7 +68,7 @@
             </div>
         </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
         <?php
         for ($i = 1; $i < 3; $i++) {
             $titleFontSize = 'text-h2';
@@ -73,7 +76,7 @@
         }
         ?>
     </div>
-    <div class="bg-black-100 my-16 h-1 "></div>
+    <div class="bg-black-100 mt-16 mb-20 h-1 "></div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-20">
         <?php
         for ($i = 3; $i < 9; $i++) {
@@ -332,7 +335,7 @@
                             <div class="font-bold md:ml-2">
                                 John Doe
                             </div>
-                            <div class="flex flex-row items-center mx-2">
+                            <div class="flex flex-row items-center mxs-1-2">
                                 <div class="w-3 h-h-1px bg-black-800"></div>
                             </div>
                             <div>
