@@ -15,7 +15,7 @@
         <div class="h-26 w-788px bg-black-500"></div>
     </div>
     <div class="pb-6 pt-16 relative hidden md:block">
-        <img src="images/1.png" alt="Hero Image">
+        <img class="w-full" src="images/1.png" alt="Hero Image">
         <div class="absolute top-0 h-full px-20">
             <div class="flex flex-col justify-end h-full flex-wrap text-black-800 pb-20">
                 <div class="flex flex-col justify-center">
@@ -92,10 +92,10 @@
                 <img src="./images/send.svg" alt="" class="w-24" >
             </div>
             <div>
-                اقرأ كل الاخبار, في أي وقت و في أي مكان.
+                اقرأ كل الاخبار، في أي وقت و في أي مكان.&nbsp;
             </div>
             <a href="#" class="text-blue-700 underline text-s-1">
-                 انضم الى مجموعتنا
+            انضم الى مجموعتنا&nbsp;
             </a>
             <div>
                 لقراءة مقالات غير محدودة.
@@ -104,7 +104,7 @@
     </div>
     <div class="flex flex-wrap py-6 md:hidden items-center justify-center gap-2">
         <div>
-            اقرأ كل الاخبار, في أي وقت و في أي مكان.
+            اقرأ كل الاخبار، في أي وقت و في أي مكان.
         </div>
         <div class="flex items-center gap-2">
             <a href="#" class="text-blue-700 underline">
@@ -161,7 +161,7 @@
             استمع الى محتوى عالي الجودة
         </a>
         <div>
-            حول الشؤون الجارية, و الاعمال التجارية, و الاقتصاد
+            حول الشؤون الجارية، و الاعمال التجارية، و الاقتصاد
         </div>
     </div>
     <div class="py-6 block md:hidden gap-2">
@@ -170,7 +170,7 @@
             استمع الى محتوى عالي الجودة
         </a>
         <div class="inline-block">
-            حول الشؤون الجارية, و الاعمال التجارية, و الاقتصاد
+            حول الشؤون الجارية، و الاعمال التجارية، و الاقتصاد
         </div>
     </div>
     <div class="bg-black-100 my-10 h-1"></div>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                         <div class="py-2 md:text-s-1 text-16px">
-                            بدءاً من تسعينيات القرن الماضي, أصبحت الشراكات بين القطاعين العام و الخاص ذات اهمية محورية
+                            بدءاً من تسعينيات القرن الماضي، أصبحت الشراكات بين القطاعين العام و الخاص ذات اهمية محورية
                             في الطريقة التي يدار من خلالها ملف النفايات في مختلف ارجاء لبنان.
                         </div>
                         <div>
@@ -275,7 +275,7 @@
                         <div class="flex items-center justify-between p-1">
                             <i class="icon-time mr-2 text-red-700"></i>
                             <div>
-                                10 min read
+                                10 MIN READ
                             </div>
                         </div>
                     </div>
@@ -320,7 +320,7 @@
                         <div class="flex items-center justify-between p-1">
                             <i class="icon-time mr-2 text-red-700"></i>
                             <div>
-                                10 min read
+                                10 MIN READ
                             </div>
                         </div>
                     </div>
@@ -333,13 +333,13 @@
                     <div class="inline-block bg-white my-2">
                         <div class="flex items-center justify-between p-1 md:text-15px text-xs">
                             <div class="font-bold md:ml-2">
-                                John Doe
+                                John Doe&nbsp;
                             </div>
                             <div class="flex flex-row items-center mxs-1-2">
                                 <div class="w-3 h-h-1px bg-black-800"></div>
                             </div>
                             <div>
-                                 Journalist
+                            &nbsp;Journalist
                             </div>
                         </div>
                     </div>
