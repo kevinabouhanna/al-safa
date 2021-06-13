@@ -4,7 +4,7 @@
             <button class="btn btn-yellow hidden md:block text-15px px-3">
                 اشترك في الصحيفة
             </button>
-            <button class="btn block sm:hidden">
+            <button class="btn block md:hidden">
                 اشترك
             </button>
         </div>

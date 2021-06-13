@@ -2,7 +2,7 @@
     <?php $articleImagePath = file_exists('images/article_'.$i.'.png') ? 'images/article_'.$i.'.png' : 'images/article_'.rand(1,11).'.png'; ?>
     <div class="grid grid-cols-5 gap-2 flex items-center">
         <div>
-            <img class="w-full h-80 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
+            <img class="w-full md:h-80 h-56 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
         </div>
         <div class="md:col-span-3 col-span-5">
             <div class="pb-2 pt-1 flex flex-row items-center gap-2 text-15px">
