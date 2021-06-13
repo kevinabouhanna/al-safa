@@ -10,7 +10,7 @@
                     بالعربي
                     </div>
                 </div>
-                <div>
+                <div class=" md:hidden block ">
                     <i class="icon-bookmark_border text-24px"></i>
                 </div>
             </div>
