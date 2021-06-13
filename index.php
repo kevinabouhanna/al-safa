@@ -280,14 +280,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-8">
+                <div class="py-2 md:text-s-1 text-sm leading-9">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>
                 <div>
                     <div class="inline-block bg-white mt-2">
                         <div class="flex items-center justify-between p-1 md:text-base text-xs">
-                            <div class="font-bold md:ml-2">
+                            <div class="font-bold">
                                 John Doe
                             </div>
                             <div class="flex flex-row items-center mx-2">
@@ -325,14 +325,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-8">
+                <div class="py-2 md:text-s-1 text-sm leading-9">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>
                 <div>
                     <div class="inline-block bg-white my-2">
                         <div class="flex items-center justify-between p-1 md:text-15px text-xs">
-                            <div class="font-bold md:ml-2">
+                            <div class="font-bold">
                                 John Doe&nbsp;
                             </div>
                             <div class="flex flex-row items-center mxs-1-2">
