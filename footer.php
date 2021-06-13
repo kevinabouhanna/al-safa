@@ -5,21 +5,21 @@
                 <i class="icon-logo text-white md:text-89px text-7xl"></i>
             </div>
             <div class="col-span-2">
-                <div class="pb-8 border-b border-black-700 w-90% text-s-1 font-bold ">عرض حسب الفئة</div>
+                <div class="pb-8 border-b border-black-700 md:w-90% text-s-1 font-bold ">عرض حسب الفئة</div>
                 <div>
                     <div class="grid grid-cols-2 md:grid-cols-2 pt-8 text-2xl leading-9">
                         <div>
-                            <a href="#" class="block pb-2">موقف</a>
-                            <a href="#" class="block pb-2">بالتفصيل</a>
-                            <a href="#" class="block pb-2">بالعربي</a>
-                            <a href="#" class="block pb-2">لا سياسي</a>
-                            <a href="#" class="block pb-2">وثيقة</a>
+                            <a href="#" class="block md:pb-2 pb-8">موقف</a>
+                            <a href="#" class="block md:pb-2 pb-8">بالتفصيل</a>
+                            <a href="#" class="block md:pb-2 pb-8">بالعربي</a>
+                            <a href="#" class="block md:pb-2 pb-8">لا سياسي</a>
+                            <a href="#" class="block md:pb-2 pb-8">وثيقة</a>
                         </div>
                         <div>
-                            <a href="#" class="block pb-2">اضبارة</a>
-                            <a href="#" class="block pb-2">صوت و صورة</a>
-                            <a href="podcasts.php" class="block pb-2">البودكاست</a>
-                            <a href="#" class="block pb-2">بالأجنبي</a>
+                            <a href="#" class="block md:pb-2 pb-8">اضبارة</a>
+                            <a href="#" class="block md:pb-2 pb-8">صوت و صورة</a>
+                            <a href="podcasts.php" class="block md:pb-2 pb-8">البودكاست</a>
+                            <a href="#" class="block md:pb-2 pb-8">بالأجنبي</a>
                         </div>
                     </div>
                 </div>
@@ -27,22 +27,22 @@
             <div class="col-span-1">
                 <div class="pb-8 border-b border-black-700 text-s-1 font-bold">أســــــامينا</div>
                 <div class="pt-8 grid md:grid-cols-1 grid-cols-2 text-2xl leading-9">
-                    <a href="#" class="block pb-2">أسامينا</a>
-                    <a href="#" class="block pb-2">هويتنا</a>
-                    <a href="#" class="block pb-2">بالعربي</a>
-                    <a href="#" class="block pb-2">للتواصل</a>
-                    <a href="#" class="block pb-2">خطة الاشتراك</a>
+                    <a href="#" class="block md:pb-2 pb-8">أسامينا</a>
+                    <a href="#" class="block md:pb-2 pb-8">هويتنا</a>
+                    <!-- <a href="#" class="block md:pb-2 pb-8">بالعربي</a> -->
+                    <a href="#" class="block md:pb-2 pb-8">للتواصل</a>
+                    <a href="#" class="block md:pb-2 pb-8">خطة الاشتراك</a>
                 </div>
             </div>
             <div class="col-span-2 md:col-span-3 md:pr-24 leading-9">
-                <div class="pb-10 text-s-1 font-bold">النشرة الاخبارية</div>
-                <div class="text-base">
+                <div class="pb-5 md:pb-10 text-s-1 font-bold border-b border-black-700 md:border-0">النشرة الاخبارية</div>
+                <div class="text-base pt-5 md:pt-0">
                     كن من أول المطلعين على آخر الاخبار، انضم و كن جزئا من الصفا
                 </div>
                 <div class="mt-8 flex items-center justify-between">
-                    <input class="w-full bg-black-700 rounded-r-full py-2 px-4 focus:outline-none placeholder-white" type="text"
+                    <input class="w-full bg-black-700 rounded-r-full h-12 px-4 focus:outline-none placeholder-white" type="text"
                            placeholder="بريدك الالكتروني">
-                    <button class="btn btn-red rounded-r-none px-8">تسجيل</button>
+                    <button class="btn btn-red rounded-r-none px-8 h-12 flex flex-row items-center">تسجيل</button>
                 </div>
             </div>
         </div>
