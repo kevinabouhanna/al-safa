@@ -10669,6 +10669,10 @@ body{
   font-size: 1.67rem;
 }
 
+.text-6\.8px {
+  font-size: 0.485rem;
+}
+
 .text-p-9\.8px {
   font-size: 0.701rem;
 }
@@ -22135,7 +22139,7 @@ body{
 }
 
 .shadow-article-over {
-  --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+  --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -22190,7 +22194,7 @@ body{
 }
 
 .group:hover .group-hover\:shadow-article-over {
-  --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+  --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -22245,7 +22249,7 @@ body{
 }
 
 .focus-within\:shadow-article-over:focus-within {
-  --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+  --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -22300,7 +22304,7 @@ body{
 }
 
 .hover\:shadow-article-over:hover {
-  --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+  --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -22355,7 +22359,7 @@ body{
 }
 
 .focus\:shadow-article-over:focus {
-  --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+  --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -42732,6 +42736,10 @@ body{
     font-size: 1.67rem;
   }
 
+  .sm\:text-6\.8px {
+    font-size: 0.485rem;
+  }
+
   .sm\:text-p-9\.8px {
     font-size: 0.701rem;
   }
@@ -54194,7 +54202,7 @@ body{
   }
 
   .sm\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -54249,7 +54257,7 @@ body{
   }
 
   .group:hover .sm\:group-hover\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -54304,7 +54312,7 @@ body{
   }
 
   .sm\:focus-within\:shadow-article-over:focus-within {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -54359,7 +54367,7 @@ body{
   }
 
   .sm\:hover\:shadow-article-over:hover {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -54414,7 +54422,7 @@ body{
   }
 
   .sm\:focus\:shadow-article-over:focus {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -74625,6 +74633,10 @@ body{
     font-size: 1.67rem;
   }
 
+  .md\:text-6\.8px {
+    font-size: 0.485rem;
+  }
+
   .md\:text-p-9\.8px {
     font-size: 0.701rem;
   }
@@ -86087,7 +86099,7 @@ body{
   }
 
   .md\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -86142,7 +86154,7 @@ body{
   }
 
   .group:hover .md\:group-hover\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -86197,7 +86209,7 @@ body{
   }
 
   .md\:focus-within\:shadow-article-over:focus-within {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -86252,7 +86264,7 @@ body{
   }
 
   .md\:hover\:shadow-article-over:hover {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -86307,7 +86319,7 @@ body{
   }
 
   .md\:focus\:shadow-article-over:focus {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -106518,6 +106530,10 @@ body{
     font-size: 1.67rem;
   }
 
+  .lg\:text-6\.8px {
+    font-size: 0.485rem;
+  }
+
   .lg\:text-p-9\.8px {
     font-size: 0.701rem;
   }
@@ -117980,7 +117996,7 @@ body{
   }
 
   .lg\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -118035,7 +118051,7 @@ body{
   }
 
   .group:hover .lg\:group-hover\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -118090,7 +118106,7 @@ body{
   }
 
   .lg\:focus-within\:shadow-article-over:focus-within {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -118145,7 +118161,7 @@ body{
   }
 
   .lg\:hover\:shadow-article-over:hover {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -118200,7 +118216,7 @@ body{
   }
 
   .lg\:focus\:shadow-article-over:focus {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -138411,6 +138427,10 @@ body{
     font-size: 1.67rem;
   }
 
+  .xl\:text-6\.8px {
+    font-size: 0.485rem;
+  }
+
   .xl\:text-p-9\.8px {
     font-size: 0.701rem;
   }
@@ -149873,7 +149893,7 @@ body{
   }
 
   .xl\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -149928,7 +149948,7 @@ body{
   }
 
   .group:hover .xl\:group-hover\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -149983,7 +150003,7 @@ body{
   }
 
   .xl\:focus-within\:shadow-article-over:focus-within {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -150038,7 +150058,7 @@ body{
   }
 
   .xl\:hover\:shadow-article-over:hover {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -150093,7 +150113,7 @@ body{
   }
 
   .xl\:focus\:shadow-article-over:focus {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -170304,6 +170324,10 @@ body{
     font-size: 1.67rem;
   }
 
+  .\32xl\:text-6\.8px {
+    font-size: 0.485rem;
+  }
+
   .\32xl\:text-p-9\.8px {
     font-size: 0.701rem;
   }
@@ -181766,7 +181790,7 @@ body{
   }
 
   .\32xl\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -181821,7 +181845,7 @@ body{
   }
 
   .group:hover .\32xl\:group-hover\:shadow-article-over {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -181876,7 +181900,7 @@ body{
   }
 
   .\32xl\:focus-within\:shadow-article-over:focus-within {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -181931,7 +181955,7 @@ body{
   }
 
   .\32xl\:hover\:shadow-article-over:hover {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -181986,7 +182010,7 @@ body{
   }
 
   .\32xl\:focus\:shadow-article-over:focus {
-    --tw-shadow: inset 0px -200px 98px -79px rgb(0,0,0,1);
+    --tw-shadow: inset 0px -220px 161px -59px rgb(0,0,0,1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 

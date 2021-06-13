@@ -94,6 +94,7 @@ module.exports = {
                 "12px": '0.857rem',
                 '24px': '1.714rem',
                 'h3-16.7px': '1.67rem',
+                '6.8px':'0.485rem',
                 'p-9.8px': '0.701rem',
                 'p-7px': '0.5rem',
                 'p-16px': '1.142rem',
@@ -182,7 +183,7 @@ module.exports = {
             boxShadow: {
                 'inner-video': 'inset 0px 0px 0px 1000px rgba(0,0,0,0.4)',
                 'outter-dash': '0px 0px 0px 1000px rgba(0,0,0,0.4)',
-                'article-over': 'inset 0px -200px 98px -79px rgb(0,0,0,1)',
+                'article-over': 'inset 0px -220px 161px -59px rgb(0,0,0,1)',
             },
             gridTemplateColumns: {
                 'audio': '7% 39% 39% 15%',

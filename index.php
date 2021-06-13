@@ -131,22 +131,22 @@
             </div>
         </div>
     </div>
-    <div class="bg-black-300 mt-10 mb-16 h-h-1px"></div>
+    <div class="bg-black-300 md:mt-10 mt-5 md:mb-16 mb-10 h-h-1px"></div>
     <div class="mt-6">
         <div class="flex items-center justify-between">
-            <div class="text-h1 font-bold">
+            <div class="md:text-h1 text-h3 font-bold">
                 بودكاست
             </div>
             <a href="#" class="text-15px">
                 <div class="flex flex-row items-center">
                     <p>الجميع</p>
-                <i class="icon-arrow_left text-24px"></i>
+                <i class="icon-arrow_left md:text-24px text-s-1"></i>
             </div>  
             </a>
         </div>
     </div>
-    <div class="bg-black-300 mt-5 mb-14 h-h-1px"></div>
-    <div class="mt-4">
+    <div class="bg-black-300 mt-5 mb-14 h-h-1px hidden md:block"></div>
+    <div class="md:mt-4 mt-10">
         <div class="md:grid grid-cols-1 md:grid-cols-4 gap-6 hidden">
             <?php
                 for ($i = 1; $i < 5; $i++) {
@@ -163,14 +163,14 @@
                 }
             ?>
         </div>
-        <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 mt-14 pb-20">
+        <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 md:mt-14 mt-10 md:pb-20 pb-4">
         <i class="icon-radio-botton"></i>
         <i class="icon-radio-botton mr-2"></i>
         <i class="icon-radio-botton mr-2"></i>
         <i class="icon-radio-botton mr-2 text-red-800"></i>
         </div>
     </div>
-    <div class="bg-black-300 my-10 h-h-1px"></div>
+    <div class="bg-black-300 md:my-10 mt-4 h-h-1px"></div>
     <div class="py-6 hidden md:flex items-center justify-center gap-2 text-s-1">
         <img src="./images/podcast.svg" alt="">
         <a href="#" class="text-blue-700 underline mr-2">
@@ -180,55 +180,62 @@
             حول الشؤون الجارية، و الاعمال التجارية، و الاقتصاد
         </div>
     </div>
-    <div class="py-6 block md:hidden gap-2">
-        <i class="icon-podcast"></i>
-        <a href="#" class="text-blue-700 underline inline-block">
-            استمع الى محتوى عالي الجودة
-        </a>
-        <div class="inline-block">
-            حول الشؤون الجارية، و الاعمال التجارية، و الاقتصاد
+    <div class="py-6 block md:hidden gap-2 tex-base">
+        <div class="flex flex-row justify-center w-full mb-8">
+            <img src="./images/podcast.svg" alt="">
         </div>
+        <p class="leading-8">
+            <a href="#" class="text-blue-700 underline inline-block">
+                استمع الى محتوى عالي الجودة
+            </a>
+                حول الشؤون الجارية، و الاعمال التجارية، و الاقتصاد
+        </p>
     </div>
-    <div class="bg-black-300 mt-10 mb-24 h-h-1px"></div>
+    <div class="bg-black-300 mt-10 md:mb-24 mb-10 h-h-1px"></div>
 </div>
 
 <div class="bg-yellow-400">
     <div class="container max-w-1400px font-sans">
-        <div class="flex items-center justify-between pt-18">
-            <div class="text-h1 font-black">
+        <div class="flex items-center justify-between md:pt-18 pt-10">
+            <div class="md:text-h1 text-h4 font-black">
                 الأكثر قراءة
             </div>
             <a href="#"><div class="flex flex-row items-center"><p> الجميع</p><i class="icon-arrow_left text-s-1 mr-2"></i></div>
             </a>
         </div>
-        <div class="bg-black-400 mt-5 h-h-1px mb-10"></div>
+        <div class="bg-black-400 mt-5 h-h-1px mb-10 hidden md:block"></div>
         <div>
             <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-4">
                 <div class="col-span-1 md:col-span-2 row-start-1 row-end-2">
-                    <img src="images/article_4.png" alt="" class="w-full h-96 object-cover object-center">
+                    <img src="images/article_4.png" alt="" class="w-full md:h-96 h-60 object-cover object-center">
                 </div>
                 <div class="col-span-1 md:col-span-3 row-start-2 row-end-3 md:row-start-1 md:row-end-2">
                     <div>
-                        <div class="w-max flex flex-row items-center">
-                            <div class="w-6 h-h-0.5 bg-black-700 rounded-full"></div>
-                            <div class="pb-2 pt-1 pr-5">
-                                 بالعربي
+                        <div class="flex flex-row justify-between w-full">
+                            <div class="w-max flex flex-row items-center">
+                                <div class="w-6 h-h-0.5 bg-black-700 rounded-full"></div>
+                                <div class="md:pb-2 md:pt-1 pr-5">
+                                    بالعربي
+                                </div>
                             </div>
+                            <div class=" md:hidden">
+                                    <i class="icon-bookmark_border text-24px"></i>
+                                </div>
                         </div>
                         <div class="md:text-h1 text-h4 font-bold py-2 leading-relaxed">
                             جامعو خردة قاصرون ينبشون كنز لبنان المدفون في النفايات
                         </div>
                         <div>
-                            <div class="inline-block rounded-full bg-black-100 px-1 mt-2">
+                            <div class="inline-block rounded-full bg-black-100 px-1 md:mt-2 my-4">
                                 <div class="flex items-center justify-between p-1">
-                                    <i class="icon-time ml-2 text-red-700"></i>
+                                    <i class="icon-time ml-2 text-red-700 text-s-1"></i>
                                     <div class="text-15px">
                                     ٧ دقائق للقراءة
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="py-2 md:text-s-1 text-16px">
+                        <div class="py-2 md:text-s-1 text-16px leading-9">
                             بدءاً من تسعينيات القرن الماضي، أصبحت الشراكات بين القطاعين العام و الخاص ذات اهمية محورية
                             في الطريقة التي يدار من خلالها ملف النفايات في مختلف ارجاء لبنان.
                         </div>
@@ -249,7 +256,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 mb-14 mt-10 col-span-5">
+                <div class="col-span-1 flex flex-row justify-center text-sm bg-transparent text-red-300 md:mb-14 md:mt-10 my-8 md:col-span-5">
                             <i class="icon-radio-botton"></i>
                             <i class="icon-radio-botton mr-2"></i>
                             <i class="icon-radio-botton mr-2"></i>
@@ -260,7 +267,7 @@
     </div>
 </div>
 
-<div class="container pb-12 pt-6 max-w-1400px" dir="ltr">
+<div class="container pb-12 md:pt-6 max-w-1400px" dir="ltr">
     <div class="mt-12 mb-4 pb-2">
         <div class="flex items-center justify-between">
             <div class="md:text-h1 text-24px font-bold">
@@ -270,39 +277,39 @@
             </a>
         </div>
     </div>
-    <div class="bg-black-300 w-full h-h-1px mb-10"></div>
+    <div class="bg-black-300 w-full h-h-1px mb-10 hidden md:block"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
-            <img class="w-full h-72 object-cover object-center" src="images/article_10.png" alt="">
+        <div class="mt-2 md:mt-0">
+            <img class="w-full md:h-72 h-48 object-cover" src="images/article_10.png" alt="">
             <div>
-                <div class="pb-2 pt-1">
-                <div class="w-full flex flex-row items-center" dir="rtl">
-                    <div class="w-6 h-h-0.5 bg-black-700 rounded-full"></div>
-                    <div class="pb-2 pt-1 pr-5">
-                             بالعربي
+                <div class="md:pb-2 pt-1 text-p-9.8px md:text-base">
+                    <div class="w-full flex flex-row items-center" dir="rtl">
+                        <div class="md:w-6 w-4 h-h-0.5 bg-black-700 rounded-full"></div>
+                        <div class="md:pb-2 pb-1 pt-1 md:pr-5 pr-2">
+                                بالعربي
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="md:text-34px text-16px font-bold py-2 leading-snug">
+                <div class="md:text-34px text-16px font-bold md:py-2 leading-snug">
                     "Divorcing" Is Literature That Looks Beyond Life
                 </div>
                 <div>
-                    <div class="inline-block rounded-full bg-black-100 px-1 mt-2">
+                    <div class="inline-block rounded-full bg-black-100 px-1 md:mt-2">
                         <div class="flex items-center justify-between p-1">
-                            <i class="icon-time mr-2 text-red-700"></i>
-                            <div>
+                            <i class="icon-time mr-2 text-red-700 md:text-base text-p-9.8px"></i>
+                            <div class="md:text-base text-6.8px">
                                 10 MIN READ
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-9 mt-2">
+                <div class="md:py-2 md:text-s-1 text-p-9.8px md:leading-9 mt-2">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>
                 <div>
                     <div class="inline-block bg-white mt-2">
-                        <div class="flex items-center justify-between p-1 md:text-base text-xs">
+                        <div class="flex items-center justify-between p-1 md:text-base text-6.8px">
                             <div class="font-bold">
                                 John Doe
                             </div>
@@ -317,53 +324,53 @@
                 </div>
             </div>
         </div>
-        <div>
-            <img class="w-full h-72 object-cover object-center" src="images/article_11.png" alt="">
+        <div class="mt-2 md:mt-0">
+            <img class="w-full md:h-72 h-48 object-cover" src="images/article_11.png" alt="">
             <div>
-                <div class="pb-2 pt-1">
-                <div class="w-full flex flex-row items-center" dir="rtl">
-                    <div class="w-6 h-h-1px bg-black-700 rounded-full"></div>
-                    <div class="pb-2 pt-1 pr-5">
-                             بالعربي
+                <div class="md:pb-2 pt-1 text-p-9.8px md:text-base">
+                    <div class="w-full flex flex-row items-center" dir="rtl">
+                        <div class="md:w-6 w-4 h-h-0.5 bg-black-700 rounded-full"></div>
+                        <div class="md:pb-2 pb-1 pt-1 md:pr-5 pr-2">
+                                بالعربي
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="md:text-34px text-16px font-bold py-2 leading-snug">
+                <div class="md:text-34px text-16px font-bold md:py-2 leading-snug">
                     "Divorcing" Is Literature That Looks Beyond Life
                 </div>
                 <div>
-                    <div class="inline-block rounded-full bg-black-100 px-1 mt-2">
+                    <div class="inline-block rounded-full bg-black-100 px-1 md:mt-2">
                         <div class="flex items-center justify-between p-1">
-                            <i class="icon-time mr-2 text-red-700"></i>
-                            <div>
+                            <i class="icon-time mr-2 text-red-700 md:text-base text-p-9.8px"></i>
+                            <div class="md:text-base text-6.8px">
                                 10 MIN READ
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-9 mt-2">
+                <div class="md:py-2 md:text-s-1 text-p-9.8px md:leading-9 mt-2">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>
                 <div>
-                    <div class="inline-block bg-white my-2">
-                        <div class="flex items-center justify-between p-1 md:text-15px text-xs">
+                    <div class="inline-block bg-white mt-2">
+                        <div class="flex items-center justify-between p-1 md:text-base text-6.8px">
                             <div class="font-bold">
-                                John Doe&nbsp;
+                                John Doe
                             </div>
-                            <div class="flex flex-row items-center mxs-1-2">
+                            <div class="flex flex-row items-center mx-2">
                                 <div class="w-3 h-h-1px bg-black-800"></div>
                             </div>
                             <div>
-                            &nbsp;Journalist
+                                 Journalist
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="flex flex-row justify-center mt-10 p-4 mb-14">
-            <a href="#" class="md:hidden"><div class="flex flex-row items-center"><p> ALL ARTICLES</p><i class="icon-arrow-right text-s-1 ml-2"></i></div>
+        <div class="flex flex-row justify-center mt-10 p-4 mb-14 pb-20 md:pb-0">
+            <a href="#" class="md:hidden"><div class="flex flex-row items-center font-bold"><p> ALL ARTICLES</p><i class="icon-arrow-right text-24px ml-2"></i></div>
             </a>
         </div>
     </div>
