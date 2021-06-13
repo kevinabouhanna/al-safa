@@ -27,7 +27,7 @@
         <div class="text-center text-gray-500">
             ١ - ٢٢ من ٥٥ مساهمات
         </div>
-        <div class="flex items-center justify-center py-3 gap-4 text-lg">
+        <div class="flex items-center justify-center py-3 gap-x-4 gap-y-10 text-lg">
             <i class="icon-chevron-right text-2xl text-red-800"></i>
             <div>١</div>
             <div>٢</div>
