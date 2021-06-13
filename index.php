@@ -15,7 +15,7 @@
         <div class="md:h-26 h-16 w-788px bg-black-500"></div>
     </div>
     <div class="md:pb-6 md:pt-16 relative mt-5 md:mt-0">
-        <img class="w-full" src="images/1.png" alt="Hero Image">
+        <img class="w-full md:h-full h-72 object-cover" src="images/1.png" alt="Hero Image">
         <div class="md:absolute top-0 h-full md:px-32">
             <div class="flex flex-col justify-end h-full flex-wrap text-black-800 md:pb-20 font-sans">
                 <div class="flex flex-col justify-center">

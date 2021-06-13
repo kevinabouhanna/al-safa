@@ -51,8 +51,30 @@
 
 <script>
 
-    let regularTopHeader = document.getElementById('regularTopHeader');
-    let searchTopHeader = document.getElementById('searchTopHeader');
+    const regularTopHeader = document.getElementById('regularTopHeader');
+    const searchTopHeader = document.getElementById('searchTopHeader');
+    const searchTopHeaderSmall = document.getElementById('smallScreenSearch');
+    const navbarSmall = document.getElementById('smallSearchList');
+
+    function hamburgListHandler() {
+        if(navbarSmall.classList.contains('hidden')){
+        navbarSmall.classList.add('flex');
+        navbarSmall.classList.remove('hidden');
+        }else{
+            navbarSmall.classList.add('hidden');
+            navbarSmall.classlist.remove('flex');
+        }
+    }
+
+    function closeSearchPreviewSmall() {
+        searchTopHeaderSmall.classList.add('hidden');
+        searchTopHeaderSmall.classList.remove('fixed');
+    }
+
+    function searchPreviewSmall() {
+        searchTopHeaderSmall.classList.add('fixed');
+        searchTopHeaderSmall.classList.remove('hidden');
+    }
 
     function searchPreview() {
         regularTopHeader.classList.add('hidden');
