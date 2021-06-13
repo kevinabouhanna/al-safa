@@ -10,7 +10,7 @@ module.exports = {
         },
         screens: {
             'sm': '640px',
-            'md': '768px',
+            'md': '900px',
             'lg': '1024px',
             'xl': '1280px',
             '2xl': '1536px'
@@ -121,6 +121,7 @@ module.exports = {
                 "90%" : "90%",
             },
             height: {
+                'h-0.5': '0.14rem',
                 'h-1px': '0.0714rem',
                 'h-i': '3.720rem',
                 'h-70': '17.725rem',

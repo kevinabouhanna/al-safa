@@ -1,16 +1,23 @@
 <a class="block" href="article.php">
     <?php $articleImagePath = file_exists('images/article_'.$i.'.png') ? 'images/article_'.$i.'.png' : 'images/article_'.rand(1,11).'.png'; ?>
-    <img class="w-full h-72 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
+    <div class="w-full relative md:h-80 h-64">
+        <img class="w-full h-full object-cover absolute " src="<?php echo $articleImagePath; ?>" alt="">
+    </div>
     <div>
         <div class="pb-2 pt-1 flex flex-row items-center justify-between mt-1">
-            <div class="flex flex-row items-center">
-                <div class="w-7 h-0.5 bg-black-600 rounded-full "></div>
-                <div class="pr-4 text-15px">
-                بالعربي
+            <div class="flex flex-row justify-between w-full">
+                <div class="flex flex-row items-center">
+                    <div class="w-6 h-h-0.5 bg-black-700 rounded-full "></div>
+                    <div class="pr-4 text-15px">
+                    بالعربي
+                    </div>
+                </div>
+                <div class=" md:hidden">
+                    <i class="icon-bookmark_border text-24px"></i>
                 </div>
             </div>
         </div>
-        <div class="<?php echo $titleFontSize; ?> font-bold py-2 leading-relaxed">
+        <div class="<?php echo $titleFontSize; ?> font-black py-2 leading-relaxed">
             جامعو خردة قاصرون ينبشون كنز لبنان المدفون في النفايات
         </div>
         <div>

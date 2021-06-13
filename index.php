@@ -5,43 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="styles.css" rel="stylesheet">
     <link href="icons.css" rel="stylesheet">
-    <title>Title Goes Here</title>
+    <title>Homepage</title>
 </head>
 <body dir="rtl">
 <?php include 'header-big.php'; ?>
 
 <div class="container text-black-800 max-w-1400px">
-    <div class="flex flex-row justify-center w-full pt-16">
-        <div class="h-26 w-788px bg-black-500"></div>
+    <div class="flex flex-row justify-center w-full md:pt-16 pt-2">
+        <div class="md:h-26 h-16 w-788px bg-black-500"></div>
     </div>
-    <div class="pb-6 pt-16 relative hidden md:block">
+    <div class="md:pb-6 md:pt-16 relative mt-5 md:mt-0">
         <img class="w-full" src="images/1.png" alt="Hero Image">
-        <div class="absolute top-0 h-full px-20">
-            <div class="flex flex-col justify-end h-full flex-wrap text-black-800 pb-20">
+        <div class="md:absolute top-0 h-full md:px-32">
+            <div class="flex flex-col justify-end h-full flex-wrap text-black-800 md:pb-20 font-sans">
                 <div class="flex flex-col justify-center">
-                    <div class="flex flex-row items-center w-max" style="background-color: rgba(255,255,255,.8)">
-                        <div class="w-7 h-0.5 bg-black-700 rounded-full"></div>
-                        <div class="inline-block px-6 py-2 leading-hero py-4">
-                            بالعربي
+                    <div class="flex flex-row justify-between w-full md:mt-0 mt-2">
+                        <div class="flex flex-row items-center w-max md:pr-3" style="background-color: rgba(255,255,255,.8)">
+                            <div class="w-6 h-h-0.5 bg-black-700 rounded-full"></div>
+                            <div class="inline-block pr-2 pl-7 leading-hero md:py-4">
+                                بالعربي
+                            </div>
+                        </div>
+                        <div class="md:hidden">
+                            <i class="icon-bookmark_border text-24px"></i>
                         </div>
                     </div>
                 </div>
                 <div>
                 </div>
-                <div class="flex flex-row items-center">
-                    <div class="inline-block bg-white px-6 md:text-h1 text-3xl font-bold leading-hero"
+                <div class="flex flex-row items-center mt-3">
+                    <div class="inline-block bg-white md:pr-3 md:pl-6 md:text-h1 text-h4 font-bold md:leading-hero"
                          style="background-color: rgba(255,255,255,.8)">
                         جامعو خردة قاصرون ينبشون
                     </div>
                 </div>
                 <div>
-                    <div class="inline-block bg-white px-6 text-4xl md:text-h1 font-bold py-3 leading-hero"
+                    <div class="inline-block bg-white md:pr-3 md:pl-6 text-h4 md:text-h1 font-bold py-3 md:leading-hero"
                          style="background-color: rgba(255,255,255,.8)">
                         كنز لبنان المدفون في النفايات
                     </div>
                 </div>
                 <div>
-                    <div class="inline-block rounded-full bg-white mt-4 px-1 text-15px">
+                    <div class="inline-block rounded-full md:bg-white bg-black-100 mt-4 px-1 text-15px">
                         <div class="flex items-center justify-between p-1 px-2">
                             <i class="icon-time ml-2 text-red-700 text-18px"></i>
                             <div>
@@ -51,8 +56,8 @@
                     </div>
                 </div>
                 <div>
-                    <div class="inline-block bg-white mt-4">
-                        <div class="flex items-center justify-between px-6 text-15px py-3">
+                    <div class="inline-block bg-white md:mt-4 mt-2">
+                        <div class="flex items-center justify-between md:px-6 text-15px py-3">
                             <div class="font-bold ml-2">
                                 كريم الخوري
                             </div>
@@ -68,16 +73,16 @@
             </div>
         </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:mt-10 mt-5">
         <?php
         for ($i = 1; $i < 3; $i++) {
-            $titleFontSize = 'text-h2';
+            $titleFontSize = 'md:text-h2 text-h4';
             include 'components/article_in_grid_main.php';
         }
         ?>
     </div>
-    <div class="bg-black-100 mt-16 mb-20 h-1 "></div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-20">
+    <div class="bg-black-300 md:mt-16 md:mb-20 h-h-1px mt-8 mb-12 "></div>
+    <div class="grid-cols-3 md:grid gap-x-6 gap-y-20 hidden">
         <?php
         for ($i = 3; $i < 9; $i++) {
             $titleFontSize = 'text-h4';
@@ -85,11 +90,19 @@
         }
         ?>
     </div>
-    <div class="bg-black-100 mt-16 mb-10 h-1"></div>
+    <div class="grid grid-cols-1 gap-x-6 md:gap-y-20 gap-y-9 md:hidden">
+        <?php
+        for ($i = 3; $i < 8; $i++) {
+            $titleFontSize = 'text-h4';
+            include 'components/article_in_grid_without_icon.php';
+        }
+        ?>
+    </div>
+    <div class="bg-black-300 md:mt-16 mt-10 md:mb-10 mb-5 h-h-1px"></div>
     <div class="hidden py-6 md:flex items-center justify-center gap-2">
         <div class="w-max relative md:flex items-center justify-center md:text-s-1">
             <div class="absolute top-0 -right-14">
-                <img src="./images/send.svg" alt="" class="w-24" >
+                <img src="./images/send.svg" alt="" class="w-32" >
             </div>
             <div>
                 اقرأ كل الاخبار، في أي وقت و في أي مكان.&nbsp;
@@ -102,7 +115,10 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-wrap py-6 md:hidden items-center justify-center gap-2">
+    <div class="flex flex-wrap pb-6 md:hidden items-center justify-center gap-2">
+        <div class="flex flex-row justify-center w-full pb-6">
+                <img src="./images/send.svg" alt="" class="w-32" >
+            </div>
         <div>
             اقرأ كل الاخبار، في أي وقت و في أي مكان.
         </div>
@@ -115,7 +131,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-black-100 mt-10 mb-16 h-1"></div>
+    <div class="bg-black-300 mt-10 mb-16 h-h-1px"></div>
     <div class="mt-6">
         <div class="flex items-center justify-between">
             <div class="text-h1 font-bold">
@@ -129,7 +145,7 @@
             </a>
         </div>
     </div>
-    <div class="bg-black-100 my-5 h-1"></div>
+    <div class="bg-black-300 mt-5 mb-14 h-h-1px"></div>
     <div class="mt-4">
         <div class="md:grid grid-cols-1 md:grid-cols-4 gap-6 hidden">
             <?php
@@ -147,17 +163,17 @@
                 }
             ?>
         </div>
-        <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 mt-12 pb-20">
+        <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 mt-14 pb-20">
         <i class="icon-radio-botton"></i>
         <i class="icon-radio-botton mr-2"></i>
         <i class="icon-radio-botton mr-2"></i>
         <i class="icon-radio-botton mr-2 text-red-800"></i>
         </div>
     </div>
-    <div class="bg-black-100 my-10 h-1"></div>
+    <div class="bg-black-300 my-10 h-h-1px"></div>
     <div class="py-6 hidden md:flex items-center justify-center gap-2 text-s-1">
         <img src="./images/podcast.svg" alt="">
-        <a href="#" class="text-blue-700 underline">
+        <a href="#" class="text-blue-700 underline mr-2">
             استمع الى محتوى عالي الجودة
         </a>
         <div>
@@ -173,28 +189,28 @@
             حول الشؤون الجارية، و الاعمال التجارية، و الاقتصاد
         </div>
     </div>
-    <div class="bg-black-100 my-10 h-1"></div>
+    <div class="bg-black-300 mt-10 mb-24 h-h-1px"></div>
 </div>
 
 <div class="bg-yellow-400">
-    <div class="container max-w-1400px">
-        <div class="flex items-center justify-between pt-10">
-            <div class="text-h1 font-bold">
+    <div class="container max-w-1400px font-sans">
+        <div class="flex items-center justify-between pt-18">
+            <div class="text-h1 font-black">
                 الأكثر قراءة
             </div>
-            <a href="#"><div class="flex flex-row items-center"><p> الجميع</p><i class="icon-arrow_left text-s-1"></i></div>
+            <a href="#"><div class="flex flex-row items-center"><p> الجميع</p><i class="icon-arrow_left text-s-1 mr-2"></i></div>
             </a>
         </div>
-        <div class="bg-black-100 mt-5 h-1 mb-10"></div>
+        <div class="bg-black-400 mt-5 h-h-1px mb-10"></div>
         <div>
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-4">
                 <div class="col-span-1 md:col-span-2 row-start-1 row-end-2">
                     <img src="images/article_4.png" alt="" class="w-full h-96 object-cover object-center">
                 </div>
                 <div class="col-span-1 md:col-span-3 row-start-2 row-end-3 md:row-start-1 md:row-end-2">
                     <div>
                         <div class="w-max flex flex-row items-center">
-                            <div class="w-7 h-0.5 bg-black-700 rounded-full"></div>
+                            <div class="w-6 h-h-0.5 bg-black-700 rounded-full"></div>
                             <div class="pb-2 pt-1 pr-5">
                                  بالعربي
                             </div>
@@ -233,7 +249,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 my-10 col-span-5">
+                <div class="flex flex-row justify-center text-sm bg-transparent text-red-300 mb-14 mt-10 col-span-5">
                             <i class="icon-radio-botton"></i>
                             <i class="icon-radio-botton mr-2"></i>
                             <i class="icon-radio-botton mr-2"></i>
@@ -244,30 +260,30 @@
     </div>
 </div>
 
-<div class="container pb-12 pt-10 max-w-1400px" dir="ltr">
+<div class="container pb-12 pt-6 max-w-1400px" dir="ltr">
     <div class="mt-12 mb-4 pb-2">
         <div class="flex items-center justify-between">
             <div class="md:text-h1 text-24px font-bold">
                 Articles In Foreign Languages
             </div>
-            <a href="#" class="hidden md:block "><div class="flex flex-row items-center"><p> ALL ARTICLES</p><i class="icon-arrow-right text-s-1 ml-2"></i></div>
+            <a href="#" class="hidden md:block "><div class="flex flex-row items-center font-bold"><p> ALL ARTICLES</p><i class="icon-arrow-right text-s-1 ml-2"></i></div>
             </a>
         </div>
     </div>
-    <div class="bg-black-300 w-full h-0.5 mb-10"></div>
+    <div class="bg-black-300 w-full h-h-1px mb-10"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
             <img class="w-full h-72 object-cover object-center" src="images/article_10.png" alt="">
             <div>
                 <div class="pb-2 pt-1">
                 <div class="w-full flex flex-row items-center" dir="rtl">
-                    <div class="w-7 h-0.5 bg-black-700 rounded-full"></div>
+                    <div class="w-6 h-h-0.5 bg-black-700 rounded-full"></div>
                     <div class="pb-2 pt-1 pr-5">
                              بالعربي
                     </div>
                 </div>
                 </div>
-                <div class="md:text-34px text-16px font-bold py-2 leading-10">
+                <div class="md:text-34px text-16px font-bold py-2 leading-snug">
                     "Divorcing" Is Literature That Looks Beyond Life
                 </div>
                 <div>
@@ -280,7 +296,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-9">
+                <div class="py-2 md:text-s-1 text-sm leading-9 mt-2">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>
@@ -306,13 +322,13 @@
             <div>
                 <div class="pb-2 pt-1">
                 <div class="w-full flex flex-row items-center" dir="rtl">
-                    <div class="w-7 h-0.5 bg-black-700 rounded-full"></div>
+                    <div class="w-6 h-h-1px bg-black-700 rounded-full"></div>
                     <div class="pb-2 pt-1 pr-5">
                              بالعربي
                     </div>
                 </div>
                 </div>
-                <div class="md:text-34px text-16px font-bold py-2 leading-10">
+                <div class="md:text-34px text-16px font-bold py-2 leading-snug">
                     "Divorcing" Is Literature That Looks Beyond Life
                 </div>
                 <div>
@@ -325,7 +341,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-2 md:text-s-1 text-sm leading-9">
+                <div class="py-2 md:text-s-1 text-sm leading-9 mt-2">
                     In Chicago, sharp disagreements about when and how public schools should reopen brought the city to
                     the edge of a strike.
                 </div>
