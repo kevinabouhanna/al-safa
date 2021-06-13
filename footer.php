@@ -53,6 +53,17 @@
 
     let regularTopHeader = document.getElementById('regularTopHeader');
     let searchTopHeader = document.getElementById('searchTopHeader');
+    let buttonChange = document.getElementById('hamburg');
+
+    function changeBtnPreview() {
+        if(buttonChange.classList.contains('icon-menu')) {
+            buttonChange.classList.add('icon-close');
+            buttonChange.classList.remove('icon-menu');
+        }else{
+            buttonChange.classList.add('icon-menu');
+            buttonChange.classList.remove('icon-close');
+        }
+    }
 
     function searchPreview() {
         regularTopHeader.classList.add('hidden');
