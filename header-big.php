@@ -15,13 +15,13 @@
         </div>
         <div class="hidden md:flex items-center justify-end">
             <div class="ml-6 flex items-center justify-between cursor-pointer" onclick="searchPreview()">
-                <div class="text-15px">
+                <div class="text-15px ">
                     بحث
                 </div>
-                <i class="icon-search_24px mr-4"></i>
+                <i class="icon-search_24px mr-3 text-s-1"></i>
             </div>
-            <button class="btn btn-white flex items-center justify-between">
-                <i class="icon-user_24px ml-4"></i>
+            <button class="btn btn-white flex items-center justify-between border-black-400">
+                <i class="icon-user_24px ml-3 text-s-1"></i>
                 <div class="text-15px">
                     تسجيل الدخول
                 </div>
