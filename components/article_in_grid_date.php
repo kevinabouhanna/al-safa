@@ -1,6 +1,6 @@
 <a class="block" href="article.php">
     <?php $articleImagePath = file_exists('images/article_'.$i.'.png') ? 'images/article_'.$i.'.png' : 'images/article_'.rand(1,11).'.png'; ?>
-    <img class="w-full h-72 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
+    <img class="w-full md:h-80 h-60 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
     <div>
         <div class="pb-2 pt-1 flex flex-row items-center justify-between mt-1">
             <div class="flex flex-row items-center text-black-600">

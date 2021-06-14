@@ -44,26 +44,26 @@
         </div>
     </div>
     <div class="hidden md:flex md:flex flex-col md:flex-row md:items-center md:justify-center md:bg-black-100 md:py-3 md:h-20 md:text-2xl md:text-black-800 md:gap-y-8 md:gap-x-12 md:w-full pr-4" id="smallSearchList">
-        <a href="articles.php" class="leading-10 hover:bg-red-300 hover:text-red-800 p-2 mt-4 md:mt-0 md:relative">
-            موقف    <div class="hidden md:block md:absolute md:-bottom-3 md:left-0 md:w-full md:h-1 md:bg-red-800"></div>
+    <a href="articles.php" class="leading-10 hover:text-red-800 border-0 py-5 mt-4 md:mt-0 hover:bg-red-300 md:hover:bg-transparent hover:border-red-800 ">
+            موقف   
         </a>
-        <a href="#" class="leading-10 hover:bg-red-300 hover:text-red-800 p-2 md:relative">
-            بالتفصيل    <div class="hidden md:block md:absolute md:-bottom-3 md:left-0 md:w-full md:h-1 md:bg-red-800"></div>
+        <a href="#" class="leading-10  hover:text-red-800 py-5 border-0 md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+            بالتفصيل   
         </a>
-        <a href="#" class="leading-10 hover:bg-red-300 hover:text-red-800 p-2 md:relative">
-            بالعربي <div class="hidden md:block md:absolute md:-bottom-3 md:left-0 md:w-full md:h-1 md:bg-red-800"></div>
+        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+            بالعربي 
         </a>
-        <a href="#" class="leading-10 hover:bg-red-300 hover:text-red-800 p-2 md:relative">
-            لا سياسي    <div class="hidden md:block md:absolute md:-bottom-3 md:left-0 md:w-full md:h-1 md:bg-red-800"></div>
+        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+            لا سياسي    
         </a>
-        <a href="#" class="leading-10 hover:bg-red-300 hover:text-red-800 p-2 md:relative">
-            وثيقة   <div class="hidden md:block md:absolute md:-bottom-3 md:left-0 md:w-full md:h-1 md:bg-red-800"></div>
+        <a href="#" class="leading-10 hover:text-red-800 py-5  border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+            وثيقة   
         </a>
-        <a href="#" class="leading-10 hover:bg-red-300 hover:text-red-800 p-2 md:relative">
-            اضبارة  <div class="hidden md:block md:absolute md:-bottom-3 md:left-0 md:w-full md:h-1 md:bg-red-800"></div>
+        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0 md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+            اضبارة  
         </a>
-        <a href="#" class="leading-10 hover:bg-red-300 hover:text-red-800 p-2 md:relative">
-            صوت و صورة  <div class="hidden md:block md:absolute md:-bottom-3 md:left-0 md:w-full md:h-1 md:bg-red-800"></div>
+        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+            صوت و صورة  
         </a>
         <div class="md:hidden flex flex-col items-start justify-start pb-10">
             <div class="w-full h-h-1px bg-black-300 mb-8 mt-6"></div>

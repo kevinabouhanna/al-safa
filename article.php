@@ -41,20 +41,23 @@
             <div class="w-full md:w-auto">
                 <div class="inline-block rounded-full bg-black-100 px-1 mx-4 ">
                     <div class="flex items-center justify-between p-1">
-                        <i class="icon-play ml-2 text-red-700"></i>
+                        <i class="icon-play ml-2 text-red-700 text-24px"></i>
                         <div>
-                            7 دقائق للاستماع
+                        ٧ دقائق للاستماع
                         </div>
                     </div>
                 </div>
             </div>
-            <i class="icon-bookmark_border font-bold text-xl"></i>
-            <div class="flex items-center gap-2 border rounded-full py-1 px-2" >
-                <i class="icon-share font-bold text-xl text-gray-500"></i>
-                <i class="icon-facebook-no-color font-bold text-xl text-black"></i>
-                <i class="icon-twitter font-bold text-xl"></i>
-                <i class="icon-mail font-bold text-xl"></i>
-            </div>
+            <i class="icon-bookmark_border font-bold text-24px mr-4 "></i>
+            <i class="icon-share font-bold text-24px text-black-900"></i>
+        </div>
+        <div>
+        <button class="btn btn-yellow flex gap-2 items-center ">
+                    <i class="icon-speaker text-s-1"></i>
+                    <div>
+                        أكمل الاستماع
+                    </div>
+            </button>
         </div>
     </div>
     <img class="w-full object-center object-cover" src="images/article_1.png" alt="">
@@ -76,25 +79,25 @@
                 اتبع
             </button>
             <div class="my-2 py-2 border-b border-t">
-                <div class="flex gap-4 flex-wrap justify-center md:justify-start">
-                    <div class="bg-black-200 px-3 rounded-full py-1"> الألم</div>
-                    <div class="bg-black-200 px-3 rounded-full py-1"> الخرف</div>
-                    <div class="bg-black-200 px-3 rounded-full py-1"> الخرف</div>
-                    <div class="bg-black-200 px-3 rounded-full py-1"> الزهايمر</div>
+                <div class="flex gap-4 flex-wrap justify-center md:justify-start text-15px">
+                    <div class="bg-black-100 px-3 rounded-full "> الألم</div>
+                    <div class="bg-black-100 px-3 rounded-full"> الخرف</div>
+                    <div class="bg-black-100 px-3 rounded-full"> الخرف</div>
+                    <div class="bg-black-100 px-3 rounded-full"> الزهايمر</div>
                 </div>
             </div>
             <div class="border-b pb-2 hidden md:block">
-                <button class="btn btn-yellow flex gap-2 items-center">
+                <button class="btn btn-yellow flex gap-2 items-center px-4 py-0">
                     <i class="icon-speaker"></i>
-                    <div>
+                    <div class="text-15px">
                         أكمل الاستماع
                     </div>
                 </button>
             </div>
-            <a href="#" class="block text-blue-700 underline my-2 hidden md:block">
+            <a href="#" class="block text-blue-700 underline my-2 hidden md:block text-15px">
                 البودكاست من الكاتب نفسه
             </a>
-            <a href="#" class="block text-blue-700 underline my-2 hidden md:block">
+            <a href="#" class="block text-blue-700 underline my-2 hidden md:block text-15px">
                 بودكاست ذات صلة
             </a>
         </div>

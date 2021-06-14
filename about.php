@@ -30,12 +30,12 @@
     <div>
         <img src="./images/1.png" alt="" class="mb-6">
     </div>
-    <div class="mb-6 space-y-10 text-16px md:text-s-1 mt-10">
-        <p class="mb-4 text-normal text-md tracking-wide leading-8">
+    <div class="mb-6 space-y-10 text-16px md:text-s-1 mt-10 ">
+        <p class="mb-4 text-normal text-md tracking-wide leading-9">
             في الليلة الأولى في منزلها بعد رجوعها من المستشفى، توقفت جدتي عن سؤالي مراراً وتكراراً بالفرنسية، بين
             نوبات الألم الذي يعتصرها، “ماذا فعلتُ؟”.
         </p>
-        <p class="mb-4 text-normal text-md tracking-wide leading-8">
+        <p class="mb-4 text-normal text-md tracking-wide leading-9">
             تبلغ جدتي دنيس 82 سنة، وهي في المراحل المتأخرة من مرض الزهايمر، ما يعني أنه لم يعد في إمكانها تكوين
             ذكريات جديدة. في الصيف الماضي -من المستحيل تحديد الوقت على وجه الدقة- تعثرت جدتي وانكسرت إحدى فقرات
             ظهرها. لكنها نسيت حدوث ذلك على الفور، وبقي الألم دليلاً على ذاك السقوط. احتاجت عائلتي أسابيع، وزيارتين
@@ -43,13 +43,13 @@
 
         </p>
 
-        <p class="mb-4 text-normal text-md tracking-wide leading-8">
+        <p class="mb-4 text-normal text-md tracking-wide leading-9">
             استعداداً لخروجها الثاني من المستشفى، سافرت إلى فرنسا من أجل رعايتها. عندما وصلت إلى الشقة التي تعيش
             فيها بمفردها، لم أكن مهيأة تماماً للمدى الذي قد يزيد به مرض الزهايمر معاناتها.
 
         </p>
 
-        <p class="mb-4 text-normal text-md tracking-wide leading-8">
+        <p class="mb-4 text-normal text-md tracking-wide leading-9">
             تكاد حنجرة جدتي تنخلع من مكانها مع كل نفس، إضافة إلى تأوهها خلال نومها. وعندما أحاول حثها على القيام من
             الفراش لتناول الطعام، تدخل في نوبات غضب طفولية وتضربني بيديها وقدميها. وقد أُصيبت بسعال شديد للغاية
             لدرجة أنه قد يهيأ لمن في غرفة بعيدة أنها تتقيأ! وهو ما يتحول أحياناً إلى قيء بالفعل بينما يحاول جسدها
@@ -66,19 +66,19 @@
 
     <!--Author Cards-->
     <div class="mt-14 mb-14 md:mt-16 mb-20">
-        <div class="grid grid-cols-1 gap-x-3 md:grid-cols-3 gap-y-6">
+        <div class="grid grid-cols-1 gap-x-5 md:grid-cols-3 gap-y-6">
             <div>
                 <div class="flex justify-center">
                     <img src="images/1.png" alt="">
                 </div>
                 <div class="flex flex-col flex-wrap">
 
-                    <h1 class="text-2xl md:text-h4 my-3 text-black font-bold flex justify-center">بسكال صوما</h1>
+                    <h1 class="text-2xl md:text-h4 my-3 md:mt-4 text-black font-bold flex justify-center">بسكال صوما</h1>
                     <h2 class="flex justify-center mb-3">شريك مؤسّس ورئيسة مجلس إدارة</h2>
 
 
                 </div>
-                <div class="flex flex-row justify-center">
+                <div class="flex flex-row justify-center md:mt-2">
                     <button
                         class="ml-2 bg-transparent text-black-900 rounded-full py-1 pl-2 pr-3 border-gray-300 border flex items-center justify-between hover:bg-yellow-50 focus:bg-yellow-100 focus:outline-none text-base font-sans">
                         <i class="icon-mail"></i>
@@ -105,12 +105,12 @@
                 </div>
                 <div class="flex flex-col flex-wrap">
 
-                    <h1 class="text-2xl my-3 md:text-h4 text-black font-bold flex justify-center">بسكال صوما</h1>
+                    <h1 class="text-2xl my-3 md:text-h4  md:mt-5 text-black font-bold flex justify-center">بسكال صوما</h1>
                     <h2 class="flex justify-center mb-3">شريك مؤسّس ورئيسة مجلس إدارة</h2>
 
 
                 </div>
-                <div class="flex flex-row justify-center">
+                <div class="flex flex-row justify-center md:mt-2">
                     <button
                         class="ml-2 bg-transparent text-black-900 rounded-full py-1 pl-2 pr-3 border-gray-300 border flex items-center justify-between hover:bg-yellow-50 focus:bg-yellow-100 focus:outline-none text-base font-sans">
                         <i class="icon-mail"></i>
@@ -138,12 +138,12 @@
                 </div>
                 <div class="flex flex-col flex-wrap">
 
-                    <h1 class="text-2xl my-3 md:text-h4 text-black font-bold flex justify-center">بسكال صوما</h1>
+                    <h1 class="text-2xl my-3 md:text-h4 md:mt-5 text-black font-bold flex justify-center">بسكال صوما</h1>
                     <h2 class="flex justify-center mb-3">شريك مؤسّس ورئيسة مجلس إدارة</h2>
 
 
                 </div>
-                <div class="flex flex-row justify-center">
+                <div class="flex flex-row justify-center md:mt-2">
                     <div class="flex flex-row justify-center">
                         <button
                             class="ml-2 bg-transparent text-black-900 rounded-full py-1 pl-2 pr-3 border-gray-300 border flex items-center justify-between hover:bg-yellow-50 focus:bg-yellow-100 focus:outline-none text-base font-sans">
@@ -225,11 +225,11 @@
                             <div class="pb-2 pt-1 pr-5">
                             صحافية لبنانية
                             </div>
-                            <div class="flex flex-row items-center rounded-full bg-black-100 mr-3">
+                            <div class="flex flex-row items-center rounded-full bg-yellow-300 mr-3">
                                 <div class="flex items-center justify-between p-1">
-                                    <i class="icon-time ml-2 text-red-700"></i>
+                                    <i class="icon-article ml-2 text-red-700"></i>
                                     <div class="text-15px">
-                                    ٧ دقائق للقراءة
+                                    ٧ مساهمات
                                     </div>
                                 </div>
                             </div>

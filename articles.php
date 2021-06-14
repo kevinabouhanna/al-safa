@@ -23,11 +23,11 @@
         ?>
     </div>
 
-    <div class="pb-10 text-center hidden md:block mt-20">
+    <div class="pb-10 text-center hidden md:block mt-32">
         <div class="text-center text-gray-500">
             ١ - ٢٢ من ٥٥ مساهمات
         </div>
-        <div class="flex items-center justify-center py-3 gap-4 text-lg">
+        <div class="flex items-center justify-center py-3 gap-4 text-s-1">
             <i class="icon-chevron-right text-2xl text-red-800"></i>
             <div>١</div>
             <div>٢</div>
