@@ -18,7 +18,7 @@
                 </div>
                 <i class="icon-search_24px mr-3 text-s-1"></i>
             </div>
-            <button class="btn btn-white flex items-center justify-between border-black-400">
+            <button class="btn btn-white flex items-center justify-between border-black-300">
                 <i class="icon-user_24px ml-3 text-s-1"></i>
                 <div class="text-15px">
                     تسجيل الدخول
