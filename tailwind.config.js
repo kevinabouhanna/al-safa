@@ -136,6 +136,7 @@ module.exports = {
                 '500px': '35rem',
                 '537px': '38.35rem',
                 '580px': '41rem',
+                'max': 'max-content',
 
 
             },

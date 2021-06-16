@@ -11024,6 +11024,12 @@ body{
   height: 41rem;
 }
 
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -43559,6 +43565,12 @@ body{
     height: 41rem;
   }
 
+  .sm\:h-max {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -75922,6 +75934,12 @@ body{
 
   .md\:h-580px {
     height: 41rem;
+  }
+
+  .md\:h-max {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 
   .md\:text-xs {
@@ -108289,6 +108307,12 @@ body{
     height: 41rem;
   }
 
+  .lg\:h-max {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -140654,6 +140678,12 @@ body{
     height: 41rem;
   }
 
+  .xl\:h-max {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -173017,6 +173047,12 @@ body{
 
   .\32xl\:h-580px {
     height: 41rem;
+  }
+
+  .\32xl\:h-max {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 
   .\32xl\:text-xs {

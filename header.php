@@ -112,6 +112,6 @@
         </div>
     </div>
 </div>
-<div class="md:hidden block h-2 bg-black-100 md:mb-6">
+<div class="md:hidden block h-1 bg-black-100 md:mb-2">
 
 </div>

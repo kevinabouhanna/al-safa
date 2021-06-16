@@ -10,16 +10,25 @@
 <body dir="rtl">
 <?php include 'header.php'; ?>
 
-<div class="md:py-16 py-8 text-center max-w-1400px container">
+<div class="md:py-16 pt-8 text-center max-w-1400px container">
     <div class="md:text-h1 text-h4 font-bold">
         اسامينا 
     </div>
 </div>
 
-<div class="container py-10 max-w-1400px">
-    <div class="grid md:grid-cols-4 grid-cols-1 gap-4">
+<div class="container py-16 max-w-1400px hidden md:block">
+    <div class="grid md:grid-cols-4 grid-cols-1 gap-y-4 gap-x-8">
         <?php
         for ($i = 1; $i < 17; $i++) {
+            include 'components/author_card.php';
+        }
+        ?>
+    </div>
+</div>
+<div class="container md:py-16 pb-16 pt-8 max-w-1400px md:hidden">
+    <div class="grid md:grid-cols-4 grid-cols-1 gap-y-2 gap-x-6">
+        <?php
+        for ($i = 1; $i < 9; $i++) {
             include 'components/author_card.php';
         }
         ?>

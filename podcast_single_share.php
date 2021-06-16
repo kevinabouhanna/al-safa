@@ -86,7 +86,7 @@
                     اتبع
                 </button>
             </div>
-            <div class="my-2 py-2 border-b border-t border-black-400 py-3 md:p-0">
+            <div class="my-2 py-2 border-b border-t border-black-400 py-3">
                 <div class="flex gap-2 flex-wrap justify-center md:justify-start">
                     <div class="bg-black-100 px-4 rounded-full py-1 text-15px"> الألم</div>
                     <div class="bg-black-100 px-4 rounded-full py-1 text-15px"> الخرف</div>
@@ -262,7 +262,7 @@
                 <i class="icon-share text-24px"></i>
             </div>
             <div class="mt-20 hidden md:block ">
-                <div class="text-3xl md:text-h1 font-bold mb-10">
+                <div class="text-3xl md:text-h1 font-bold mb-10 border-b pb-10 border-black-400">
                     التعليق أدناه
                 </div>
                 <div class="my-2">
