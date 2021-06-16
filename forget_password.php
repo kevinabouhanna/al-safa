@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="./icons.css">
-    <title>Document</title>
+    <title>Forget password</title>
 </head>
 <body dir="rtl" class="bg-black-100">
 <?php include 'header_auth.php'; ?>
-<div class="container  max-w-1400px">
-<div class="pt-18 pb-14 px-4 rounded">
-    <div class="w-full bg-white md:px-sign-in-p12 shadow-lg px-5">
-        <div class="mt-10 flex flex-row justify-center pt-14">
-            <h4 class="text-s-1 md:text-h4 font-bold font-sans leading-h4 text-black-900">لا تستطيع الدخول؟</h4>
+
+<div class="container  max-w-900px">
+<div class="rounded">
+    <div class="bg-white py-4 px-3 md:my-8 my-4 rounded shadow text-gray-800 md:px-32 font-sans px-5 md:mt-18">
+        <div class="flex flex-row justify-center">
+            <h4 class="text-s-1 font-bold text-center mt-4 mb-12 md:text-h4 md:mt-10">لا تستطيع الدخول؟</h4>
         </div>
-        <div class="mt-14">
+        <div class="md:mt-10">
             <div id="email" class="text-right">
                 <label for="email--input" class="text-base font-sans pb-2 pr-1 leading-8 content-center">البريد الإلكتروني</label>
-                <input type="text" name="email" id="email--input" class="border-2 h-h-i w-full rounded border-black-300 text-right text-xl text-right  focus:border-black-800 focus:outline-none text-xl mt-4">
+                <input type="text" name="email" id="email--input" class="border-2 h-h-i w-full rounded-md border-black-300 text-right  focus:border-black-800 focus:outline-none h-12 text-xl mt-4">
             </div>
         </div>
         <div class="mt-10">
@@ -38,7 +39,7 @@
             </div>
         </div>
     </div>
-    <div class="w-full flex flex-row justify-center mt-10">
+    <div class="w-full flex flex-row justify-center mt-10 pb-34 ">
         <div class="flex flex-row w-full w-full justify-center">
             <a href="login.php" class=""><p class="text-15px leading-normal border-blue-800 border-b w-max text-blue-800">العودة لتسجيل الدخول</p></a>
         </div>

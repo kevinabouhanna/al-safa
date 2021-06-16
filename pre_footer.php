@@ -17,32 +17,32 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 md:gap-2 gap-y-1 mt-4 text-s-1">
                     <div class="flex items-center gap-2">
-                        <i class="icon-check text-red-700 text-s-1"></i>
+                        <i class="icon-check text-red-700 text-24px"></i>
                         <div>
                             دخول كامل الى جميع المقالات
                         </div>
                     </div>
                     <div class="flex items-center gap-2">
-                        <i class="icon-check text-red-700 text-s-1"></i>
+                        <i class="icon-check text-red-700 text-24px"></i>
                         <div>
                         دخول كامل لجميع البودكاست                      
                         </div>
                     </div>
                     <div class="flex items-center gap-2">
-                        <i class="icon-check text-red-700 text-s-1"></i>
+                        <i class="icon-check text-red-700 text-24px"></i>
                         <div>
                             ملخص لكل مقال
                         </div>
                     </div>
                     <div class="flex items-center gap-2">
-                        <i class="icon-check text-red-700 text-s-1"></i>
+                        <i class="icon-check text-red-700 text-24px"></i>
                         <div>
                             النشرة الاخبارية اليومية
                         </div>
                     </div>
                 </div>
                 <div class="md:mt-12 md:mb-4 mt-14">
-                    <button class="btn btn-red md:text-15px px-5 text-white ">
+                    <button class="btn btn-red md:text-15px bg-red-700 px-5 text-white ">
                         اشترك الآن مجاناً
                     </button>
                 </div>
