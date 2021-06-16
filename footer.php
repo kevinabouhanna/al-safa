@@ -39,7 +39,7 @@
                 <div class="text-base pt-5 md:pt-0">
                     كن من أول المطلعين على آخر الاخبار، انضم و كن جزئا من الصفا
                 </div>
-                <div class="mt-8 flex items-center justify-between">
+                <div class="mt-8 flex items-center justify-between w-full">
                     <input class="w-full bg-black-700 rounded-r-full h-12 px-4 focus:outline-none placeholder-white" type="text"
                            placeholder="بريدك الالكتروني">
                     <button class="btn btn-red rounded-r-none px-8 h-12 flex flex-row items-center">تسجيل</button>

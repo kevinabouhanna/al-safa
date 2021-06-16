@@ -12,10 +12,10 @@
                 <div class="h-h-1px md:mt-5 bg-black-400 mt-12 mb-5">
 
                 </div>
-                <div class="font-bold pt-6 text-s-1 ">
+                <div class="font-bold pt-6 text-s-1 pb-3">
                     فوائد الاشتراك
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 md:gap-4 gap-y-1 mt-4 text-s-1">
+                <div class="grid grid-cols-1 md:grid-cols-2 md:gap-2 gap-y-1 mt-4 text-s-1">
                     <div class="flex items-center gap-2">
                         <i class="icon-check text-red-700 text-s-1"></i>
                         <div>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="md:mt-8 md:mb-4 mt-14">
+                <div class="md:mt-12 md:mb-4 mt-14">
                     <button class="btn btn-red md:text-15px px-5 text-white ">
                         اشترك الآن مجاناً
                     </button>

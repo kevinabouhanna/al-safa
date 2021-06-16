@@ -1,8 +1,8 @@
 <div class="pb-4">
     <div class="relative">
-        <img src="images/authors/author_<?php echo $i; ?>.png" class="w-full h-48 object-center object-cover" alt="">
-        <div class="bg-white p-1 absolute bottom-2 right-2 rounded w-8 h-8 flex items-center justify-center">
-            <i class="icon-podcasts text-xl" style="color:#964FBF"></i>
+        <img src="images/authors/author_<?php echo $i; ?>.png" class="w-full h-64 object-center object-cover" alt="">
+        <div class=" absolute bottom-2 right-2">
+            <img src="svgs/podcast-2-big.svg" alt="">
         </div>
     </div>
     <div class="py-4">

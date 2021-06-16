@@ -14,19 +14,19 @@
     <div class="text-3xl font-bold md:text-h1 py-5">
         نتائج البحث
     </div>
-    <div class="flex items-center justify-center py-10">
-        <input type="text" class="p-2 px-4 rounded-r-full border focus:outline-none placeholder-black-800 w-full sm:w-max " placeholder="بالتفصيل">
+    <div class="flex items-center justify-center py-10 ">
+        <input type="text" class="p-2 px-4 rounded-r-full border focus:outline-none placeholder-black-800 w-full sm:w-max" placeholder="بالتفصيل">
         <button class="btn-red border border-red-800 rounded-none rounded-l-full pl-10 pr-8">بحث</button>
     </div>
 </div>
 
 <div class="container max-w-1400px">
-    <div class="flex items-center border-b gap-y-6 gap-x-10 text-2xl flex-wrap">
-        <a href="/search.php" class="font-bold text-red-800 px-2 relative pb-2">
-            مقالات  <div class="absolute bottom-0 left-0 w-full h-h-1px bg-red-800"></div>
+    <div class="flex items-center border-b gap-y-6 gap-x-10 text-2xl flex-wrap  ">
+        <a href="/search.php" class=" pb-2">
+            مقالات  
         </a>
-        <a href="/search_podcast.php" class="pb-2">
-            بودكاست
+        <a href="/search_podcast.php" class="pb-2 font-bold text-red-800 px-2 relative">
+            بودكاست <div class="absolute bottom-0 left-0 w-full h-h-1px bg-red-800"></div>
         </a>
         <a href="/search_authors.php" class="pb-2">
             المؤلفون
@@ -40,7 +40,7 @@
             <?php
             for ($i = 1; $i < 8; $i++) {
                 $titleFontSize = 'md:text-h4 text-s-1';
-                include 'components/article_in_list.php';
+                include 'components/article_in_list_icons.php';
             }
             ?>
         </div>
@@ -55,6 +55,9 @@
                 <div class="bg-black-100 px-4 rounded-full py-2"> مرضى الخرف</div>
                 <div class="bg-black-100 px-4 rounded-full py-2"> الزهايمر</div>
                 <div class="bg-black-100 px-4 rounded-full py-2"> الخرف</div>
+                <div class="bg-black-100 px-4 rounded-full py-2"> الألم</div>
+                <div class="bg-black-100 px-4 rounded-full py-2"> الألم</div>
+                <div class="bg-black-100 px-4 rounded-full py-2"> الألم</div>
                 <div class="bg-black-100 px-4 rounded-full py-2"> الألم</div>
             </div>
             <div class="h-h-1px bg-black-300 w-full mt-8 mb-32"></div>

@@ -10,7 +10,7 @@ module.exports = {
         },
         screens: {
             'sm': '640px',
-            'md': '900px',
+            'md': '830px',
             'lg': '1024px',
             'xl': '1280px',
             '2xl': '1536px'
@@ -104,6 +104,7 @@ module.exports = {
                 '8.5xl': '7rem',
             },
             width: {
+                'w-2px': '0.1514rem',
                 'w-19': '19.23%',
                 'w-49': '49.2%',
                 '20px': '1.428rem',
@@ -132,6 +133,7 @@ module.exports = {
                 '121px': '8.642rem',
                 '160px': '11.428rem',
                 '408px': '29.14rem',
+                '500px': '35rem',
                 '537px': '38.35rem',
                 '580px': '41rem',
 
