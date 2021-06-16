@@ -57,6 +57,8 @@
     const navbarSmall = document.getElementById('smallSearchList');
     const profileTab = document.getElementById('profileTab');
     const profileExtension = document.getElementById('profileExtension');
+    const countrySelection = document.getElementById('countrySelection');
+    const profileLougout = document.getElementById('profileLougout');
 
     function hamburgListHandler() {
         if(navbarSmall.classList.contains('hidden')){
@@ -66,6 +68,28 @@
         else{
             navbarSmall.classList.add('hidden');
             navbarSmall.classlist.remove('flex');
+        }
+    }
+
+    function countrySelectionHandler() {
+        if(countrySelection.classList.contains('hidden')){
+            countrySelection.classList.add('flex');
+            countrySelection.classList.remove('hidden');
+        }
+        else{
+            countrySelection.classList.add('hidden');
+            countrySelection.classlist.remove('flex');
+        }
+    }
+
+    function profileLougoutHandler() {
+        if(profileLougout.classList.contains('hidden')){
+            profileLougout.classList.add('flex');
+            profileLougout.classList.remove('hidden');
+        }
+        else{
+            profileLougout.classList.add('hidden');
+            profileLougout.classlist.remove('flex');
         }
     }
 

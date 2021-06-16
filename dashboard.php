@@ -12,7 +12,7 @@
 
 <div class="h-2 w-full bg-white"></div>
 
-<main class="container w-full bg-black-100 font-sans">
+<main class="md:container px-6 md:px-0 w-full bg-black-100 font-sans">
     <div class="md:grid grid-cols-4 gap-x-2% md:px-20">
         <div class="flex flex-row justify-center w-full py-6 md:py-12 md:pb-16 md:col-span-4">
             <h1 class="md:text-h1 text-h3 font-bold font-sans leading-h-c text-black-900">الحساب الخاص بك</h1>
@@ -33,18 +33,18 @@
             <div class="hidden md:col-span-2 md:block ">
                 <p class="text-xl font-normal text-black-900 font-libre leading-tight">John Doe</p>
             </div>
-            <div class="relative w-full hidden md:block col-span-2 row-span-4" id="profileTab" >
+            <div class="relative w-full hidden md:block col-span-2 row-span-4 " id="profileTab" >
                 <div class="col-span-2 md:block row-span-2 w-full row-start-3 mt-5">
-                        <a href="#"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans text-black-900 leading-32 hover:text-red-800 hover:font-bold hover:bg-red-100 px-3 h-18 md:h-full xl:h-18 w-full">الملف الشخصي</p></a>
-                        <a href="#"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans text-black-900 leading-32 hover:text-red-800 hover:font-bold hover:bg-red-100 px-3 h-18 md:h-full xl:h-18 w-full">البريد الإلكتروني والأمان</p></a>
-                        <a href="#"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans text-black-900 leading-32 hover:text-red-800 hover:font-bold hover:bg-red-100 px-3 h-18 md:h-full xl:h-18 w-full">اتبع</p></a>
-                        <a href="#"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans xl:h-18 text-black-900 leading-32 hover:text-red-800 hover:font-bold hover:bg-red-100 px-3 h-18 md:h-full w-full">ما قرأته</p></a>
+                        <a href="/dashboard.php"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans text-black-900 leading-32 text-red-800 font-bold bg-red-100 px-3 h-18 md:h-full xl:h-18 w-full">الملف الشخصي</p></a>
+                        <a href="/dashboard_email.php"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans text-black-900 leading-32 hover:text-red-800 hover:font-bold hover:bg-red-100 px-3 h-18 md:h-full xl:h-18 w-full">البريد الإلكتروني والأمان</p></a>
+                        <a href="/dashboard_followers.php"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans text-black-900 leading-32 hover:text-red-800 hover:font-bold hover:bg-red-100 px-3 h-18 md:h-full xl:h-18 w-full">اتبع</p></a>
+                        <a href="/dashboard_my_reads.php"><p class="flex flex-col justify-center text-p-16px md:text-s-1 font-normal font-sans xl:h-18 text-black-900 leading-32 hover:text-red-800 hover:font-bold hover:bg-red-100 px-3 h-18 md:h-full w-full">ما قرأته</p></a>
                 </div>
             </div>
             
             <div class="col-span-2 hidden md:block w-full pr-2" id="profileExtension">
             <div class="w-full border-b border-black-400  col-span-2"></div>
-                <button class="bg-transparent flex flex-row items-center justify-end focus:outline-none focus text-s-1 font-sans py-5">
+                <button class="bg-transparent flex flex-row items-center justify-end focus:outline-none focus text-s-1 font-sans py-5" onclick="profileLougoutHandler()">
                     <i class="icon-log-out text-24px ml-3"></i>
                     <p class="leading-8">الخروج من الحساب</p>
                 </button>
@@ -105,7 +105,9 @@
                     <label for="user-country--select" class="text-base font-sans pb-4 pr-1 leading-8 content-center">البلد الذي أنت فيه</label>
                     <div class="relative mt-4.5">
                         <input name="user-country" id="user-country--select" type="text" class="border-2 h-h-i w-full rounded-md border-black-200 text-right text-xl focus:border-black-800 focus:outline-none cursor-pointer">
-                        <a href="#"><img src="../svgs/open-dialog.svg" alt="Open Dialog" class="absolute top-4 left-4 w-8"></a>
+                        <a href="#">
+                        <img src="../svgs/open-dialog.svg" alt="Open Dialog" class="absolute top-4 left-4 w-8" onclick="countrySelectionHandler()">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -116,6 +118,7 @@
                 </button>
             </div>
         </div>
+
 
         <!--IMAGE-FOR-PLANS-->
 
@@ -244,6 +247,8 @@
 
 
 <?php
+include "dashboard_country.php";
+include "dashboard_profile_logout.php";
 include "footer.php";
 include "footer_after.php";
 ?>
