@@ -55,14 +55,36 @@
     const searchTopHeader = document.getElementById('searchTopHeader');
     const searchTopHeaderSmall = document.getElementById('smallScreenSearch');
     const navbarSmall = document.getElementById('smallSearchList');
+    const profileTab = document.getElementById('profileTab');
+    const profileExtension = document.getElementById('profileExtension');
 
     function hamburgListHandler() {
         if(navbarSmall.classList.contains('hidden')){
         navbarSmall.classList.add('flex');
         navbarSmall.classList.remove('hidden');
-        }else{
+        }
+        else{
             navbarSmall.classList.add('hidden');
             navbarSmall.classlist.remove('flex');
+        }
+    }
+
+    function profileTabHandler() {
+        if(profileTab.classList.contains('hidden')) {
+            profileTab.classList.add('block');
+            profileTab.classList.remove('hidden');
+        }
+        else{
+            profileTab.classList.add('hidden');
+            profileTab.classList.remove('block');
+        }
+        if(profileExtension.classList.contains('hidden')){
+            profileExtension.classList.add('block');
+            profileExtension.classList.remove('hidden');
+        }
+        else{
+            profileExtension.classList.add('hidden');
+            profileExtension.classList.remove('block');
         }
     }
 
