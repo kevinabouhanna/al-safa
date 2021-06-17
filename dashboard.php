@@ -20,7 +20,7 @@
 
         <div class="w-full py-2.5 grid grid-cols-2 bg-white shadow md:col-start-1 md:place-items-center md:py-0 md:pt-12 md:px-5 md:row-span-2 md:mb-10 md:shadow-lg">
             <div class="mr-4 md:mr-0 md:col-span-2">
-                <img src="../svgs/profile-placement.svg" alt="Profile Placement" class="w-40px md:w-80px md:rounded-full">
+                <img src="./svgs/profile-placement.svg" alt="Profile Placement" class="w-40px md:w-80px md:rounded-full">
             </div>
             <div class="flex-row flex justify-end md:hidden">
                 <div class="ml-4">
@@ -67,7 +67,7 @@
                 </div>
                 <div class="absolute top-15 flex flex-row justify-center md:justify-start md:mr-10 md:top-16">
                     <div class="relative w-max pb-0.5 cursor-pointer flex">
-                        <img src="../svgs/profile-placement.svg" alt="Profile Placement big" class="w-80px rounded-full p-1">
+                        <img src="./svgs/profile-placement.svg" alt="Profile Placement big" class="w-80px rounded-full p-1">
                         <i class="icon-camera text-24px absolute bottom-2 bg-white right-3 rounded-full p-0.5 md:hidden"></i> 
                         <div class="absolute top-0 h-full w-full flex flex-row justify-center items-center hidden md:flex">
                             <div class="w-full flex flex-row justify-center items-center">
@@ -106,7 +106,7 @@
                     <div class="relative mt-4.5">
                         <input name="user-country" id="user-country--select" type="text" class="border-2 h-h-i w-full rounded-md border-black-200 text-right text-xl focus:border-black-800 focus:outline-none cursor-pointer">
                         <a href="#">
-                        <img src="../svgs/open-dialog.svg" alt="Open Dialog" class="absolute top-4 left-4 w-8" onclick="countrySelectionHandler()">
+                        <img src="./svgs/open-dialog.svg" alt="Open Dialog" class="absolute top-4 left-4 w-8" onclick="countrySelectionHandler()">
                         </a>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                 <div class="mt-4.5 col-span-2 row-start-2 md:col-start-2 md:row-start-1 md:mt-0">
                     <div class="flex-row flex pb-2">
                         <p class="text-base font-normal font-sans text-black-900 leading-snug ml-2">…. 5020 Expires 10/22</p>
-                        <img src="../images/img-fi-mastercard.png" alt="Master Card Image">
+                        <img src="./images/img-fi-mastercard.png" alt="Master Card Image">
                     </div>
                 </div>
 

@@ -28551,8 +28551,8 @@ body{
   grid-template-columns: 60% 40%;
 }
 
-.grid-cols-40-60 {
-  grid-template-columns: 40% 60%;
+.grid-cols-45-55 {
+  grid-template-columns: 45% 55%;
 }
 
 .grid-cols-20-60-20 {
@@ -61336,8 +61336,8 @@ body{
     grid-template-columns: 60% 40%;
   }
 
-  .sm\:grid-cols-40-60 {
-    grid-template-columns: 40% 60%;
+  .sm\:grid-cols-45-55 {
+    grid-template-columns: 45% 55%;
   }
 
   .sm\:grid-cols-20-60-20 {
@@ -93964,8 +93964,8 @@ body{
     grid-template-columns: 60% 40%;
   }
 
-  .md\:grid-cols-40-60 {
-    grid-template-columns: 40% 60%;
+  .md\:grid-cols-45-55 {
+    grid-template-columns: 45% 55%;
   }
 
   .md\:grid-cols-20-60-20 {
@@ -126592,8 +126592,8 @@ body{
     grid-template-columns: 60% 40%;
   }
 
-  .lg\:grid-cols-40-60 {
-    grid-template-columns: 40% 60%;
+  .lg\:grid-cols-45-55 {
+    grid-template-columns: 45% 55%;
   }
 
   .lg\:grid-cols-20-60-20 {
@@ -159220,8 +159220,8 @@ body{
     grid-template-columns: 60% 40%;
   }
 
-  .xl\:grid-cols-40-60 {
-    grid-template-columns: 40% 60%;
+  .xl\:grid-cols-45-55 {
+    grid-template-columns: 45% 55%;
   }
 
   .xl\:grid-cols-20-60-20 {
@@ -191848,8 +191848,8 @@ body{
     grid-template-columns: 60% 40%;
   }
 
-  .\32xl\:grid-cols-40-60 {
-    grid-template-columns: 40% 60%;
+  .\32xl\:grid-cols-45-55 {
+    grid-template-columns: 45% 55%;
   }
 
   .\32xl\:grid-cols-20-60-20 {
