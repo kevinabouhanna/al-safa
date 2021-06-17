@@ -20,7 +20,7 @@
             <div class="flex flex-col justify-end h-full flex-wrap text-black-800 md:pb-20 font-sans">
                 <div class="flex flex-col justify-center">
                     <div class="flex flex-row justify-between w-full md:mt-0 mt-2">
-                        <div class="flex flex-row items-center w-max md:pr-3" style="background-color: rgba(255,255,255,.8)">
+                        <div class="flex flex-row items-center w-max md:pr-3">
                             <div class="w-6 h-h-0.5 bg-black-700 rounded-full"></div>
                             <div class="inline-block pr-2 pl-7 leading-hero md:py-4">
                                 بالعربي
@@ -48,7 +48,7 @@
                 <div>
                     <div class="inline-block rounded-full md:bg-white bg-black-100 mt-4 px-1 text-15px">
                         <div class="flex items-center justify-between p-1 px-2">
-                            <i class="icon-time ml-2 text-red-700 text-18px"></i>
+                            <i class="icon-time ml-2 text-red-700 text-24px"></i>
                             <div>
                             ٧ دقائق للقراءة
                             </div>
@@ -296,7 +296,7 @@
                 <div>
                     <div class="inline-block rounded-full bg-black-100 px-1 md:mt-2">
                         <div class="flex items-center justify-between p-1">
-                            <i class="icon-time mr-2 text-red-700 md:text-base text-p-9.8px"></i>
+                            <i class="icon-time mr-2 text-red-700 md:text-24px text-p-9.8px"></i>
                             <div class="md:text-base text-6.8px">
                                 10 MIN READ
                             </div>
@@ -341,7 +341,7 @@
                 <div>
                     <div class="inline-block rounded-full bg-black-100 px-1 md:mt-2">
                         <div class="flex items-center justify-between p-1">
-                            <i class="icon-time mr-2 text-red-700 md:text-base text-p-9.8px"></i>
+                            <i class="icon-time mr-2 text-red-700 md:text-24px text-p-9.8px"></i>
                             <div class="md:text-base text-6.8px">
                                 10 MIN READ
                             </div>

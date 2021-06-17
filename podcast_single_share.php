@@ -69,7 +69,10 @@
             </div>
         </div>
     </div>
-    <img class="w-full object-center object-cover hidden md:block" src="images/article_1.png" alt="">
+    <div class="relative">
+        <img class="w-full object-center object-cover hidden md:block" src="images/article_1.png" alt="">
+        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
+    </div>
     <div class="grid md:grid-cols-4 grid-cols-1 gap-4 md:py-6 md:mt-8 md:text-s-1 leading-10">
         <div class="col-span-1">
             <div class="flex flex-row w-full justify-center md:justify-start hidden md:block">
@@ -177,7 +180,10 @@
                 طرد الألم بعيداً. لم تعد تميز الليل من النهار وأصبحت تتوه داخل منزلها، بل وحتى في غرفة نومها.
             </div>
             <div class="py-2 mt-14  hidden md:block">
-                <img class="w-full object-center h-500px" src="images/article_7.png" alt="">
+                <div class="relative">
+                    <img class="w-full object-center h-500px" src="images/article_7.png" alt="">
+                    <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
+                </div>
                 <div class="text-center py-2">
                     تصوير: سليم مراد
                 </div>
@@ -232,6 +238,7 @@
             <div class="flex flex-col text-right md:items-center md:my-10 my-5 md:items-center items-start">
                 <div class="relative flex">
                     <img src="./images/1.png" alt="Video link img" class="w-full h-auto bg-cover">
+                    <div class="h-2 absolute bottom-0 right-0 bg-red-800 w-full"></div>
                     <i class="icon-play w-full h-full absolute text-34px shadow-inner-video grid place-items-center text-white sm:text-8.5xl"></i>
                 </div>
                 <h3 class="text-p-16px pt-4.5 sm:text-s-1" >غزة: مليونا شخص رهينة القرار  الإسرائيلي لإدخال اللقاح</h3>

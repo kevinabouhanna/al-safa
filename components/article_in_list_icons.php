@@ -6,6 +6,7 @@
             <div class="bg-white p-1 absolute bottom-3 right-2 rounded w-8 h-8 md:w-14 md:h-14 flex items-center justify-center">
                 <i class="icon-podcasts md:text-4xl text-2xl" style="color:#964FBF"></i>
             </div>
+        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
         </div>
         <div class="md:col-span-3 col-span-5">
             <div class="pb-2 pt-1 flex flex-row items-center gap-2 text-15px">

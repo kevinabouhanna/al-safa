@@ -1,8 +1,9 @@
 <a href="article.php" class="block pt-1 md:col-span-2 col-span-5">
     <?php $articleImagePath = file_exists('images/article_'.$i.'.png') ? 'images/article_'.$i.'.png' : 'images/article_'.rand(1,11).'.png'; ?>
     <div class="grid grid-cols-4 md:grid-cols-6 flex items-center font-sans pb-8 gap-x-7">
-        <div>
+        <div class="relative">
             <img class="w-full md:h-80 h-56 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
+            <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
         </div>
         <div class="md:col-span-4 col-span-5 w-full">
             <div class="pb-2 md:pt-1 flex flex-row items-center gap-2 text-15px justify-between md:justify-start w-full">

@@ -4,7 +4,9 @@
         <img class="w-full md:h-80 h-56 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
         <div class="absolute bottom-4 right-2">
             <img src="svgs/podcast-2-big.svg" alt="">
+            
         </div>
+        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div> 
     </div>
     <div class="font-sans">
         <div class="pb-2 pt-4">

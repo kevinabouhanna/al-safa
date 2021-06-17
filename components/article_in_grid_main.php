@@ -1,6 +1,9 @@
 <a class="block" href="article.php">
     <?php $articleImagePath = file_exists('images/article_'.$i.'.png') ? 'images/article_'.$i.'.png' : 'images/article_'.rand(1,11).'.png'; ?>
-    <img class="w-full md:h-96 h-64 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
+    <div class="relative">
+        <img class="w-full md:h-96 h-64 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
+        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
+    </div>
     <div>
         <div class="pb-2 pt-1 flex flex-row items-center justify-between mt-1">
             <div class="flex flex-row justify-between w-full">
@@ -21,7 +24,7 @@
         <div>
             <div class="inline-block rounded-full bg-black-100 px-2 md:mt-2 mt-3">
                 <div class="flex items-center justify-between p-1">
-                    <i class="icon-time ml-2 text-red-700 text-18px"></i>
+                    <i class="icon-time ml-2 text-red-700 text-24px"></i>
                     <div class="text-15px">
                     ٧ دقائق للقراءة
                     </div>
