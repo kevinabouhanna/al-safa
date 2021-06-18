@@ -1,4 +1,4 @@
-<div class="w-full bg-black-800 flex-row flex justify-center relative -mt-1">
+<div class="w-full bg-black-800 flex-row flex justify-center relative -mt-1 font-sans">
     <div class="w-full h-h-1px bg-black-700 absolute top-0 max-w-1400px"></div>
     <div class="flex container flex-row justify-center items-center md:justify-between md:h-86px h-72px max-w-1400px">
         <div>
