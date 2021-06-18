@@ -2,7 +2,7 @@
     <?php $articleImagePath = file_exists('images/article_'.$i.'.png') ? 'images/article_'.$i.'.png' : 'images/article_'.rand(1,11).'.png'; ?>
     <div class="relative">
         <img class="w-full md:h-80 h-60 object-cover object-center" src="<?php echo $articleImagePath; ?>" alt="">
-        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
+        <div class="h-2 absolute bottom-0 right-0 z-10 bg-blue-300 w-full"></div>
     </div>
     <div>
         <div class="pb-2 pt-1 flex flex-row items-center justify-between mt-1">

@@ -63,7 +63,7 @@
                 <div class=" w-full flex-row flex items-center">
                     <div class="relative w-full">
                         <img src="../images/1.png " alt="" class="object-cover w-full md:h-80">
-                        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
+                        <div class="h-2 absolute bottom-0 right-0 z-10 bg-blue-300 w-full"></div>
                         <img src="../svgs/podcast-2-big.svg" alt="Podcast icon" class="absolute bottom-2 right-2 rounded-lg w-10 md:w-auto">
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                 <div class=" w-full flex-row flex items-center">
                     <div class="relative w-full">
                         <img src="../images/1.png " alt="" class="object-cover w-full md:h-80">
-                        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
+                        <div class="h-2 absolute bottom-0 right-0 z-10 bg-blue-300 w-full"></div>
                         <img src="../svgs/podcast-2-big.svg" alt="Podcast icon" class="absolute bottom-2 right-2 rounded-lg w-10 md:w-auto">
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                 <div class=" w-full flex-row flex items-center">
                     <div class="relative w-full">
                         <img src="../images/1.png " alt="" class="object-cover w-full md:h-80">
-                        <div class="h-2 absolute bottom-0 right-0 z-10 bg-red-800 w-full"></div>
+                        <div class="h-2 absolute bottom-0 right-0 z-10 bg-blue-300 w-full"></div>
                         <img src="../svgs/podcast-2-big.svg" alt="Podcast icon" class="absolute bottom-2 right-2 rounded-lg w-10 md:w-auto">
                     </div>
                 </div>
