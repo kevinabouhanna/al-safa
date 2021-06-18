@@ -12,7 +12,7 @@
 
 <div class="h-2 w-full bg-white"></div>
 
-<main class="md:container px-6 md:px-0 w-full bg-black-100 font-sans">
+<main class="md:container px-6 md:px-0 w-full bg-black-100 font-sans m">
     <div class="md:grid grid-cols-4 gap-x-2% md:px-20">
         <div class="flex flex-row justify-center w-full py-6 md:py-12 md:pb-16 md:col-span-4">
             <h1 class="md:text-h1 text-h3 font-bold font-sans leading-h-c text-black-900">الحساب الخاص بك</h1>
