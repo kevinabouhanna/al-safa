@@ -187,7 +187,7 @@ module.exports = {
             }),
             boxShadow: {
                 'inner-video': 'inset 0px 0px 0px 1000px rgba(0,0,0,0.4)',
-                'outter-dash': '0px 0px 0px 1000px rgba(0,0,0,0.4)',
+                'outter-dash': '0px 0px 0px 2000px rgba(0,0,0,0.4)',
                 'article-over': 'inset 0px -220px 161px -59px rgb(0,0,0,1)',
             },
             gridTemplateColumns: {

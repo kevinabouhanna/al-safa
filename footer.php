@@ -59,6 +59,24 @@
     const profileExtension = document.getElementById('profileExtension');
     const countrySelection = document.getElementById('countrySelection');
     const profileLougout = document.getElementById('profileLougout');
+    const countryCheckIcon = document.querySelectorAll('.icon_handler')
+    
+
+    const onActiveCheckIcon = (e) => {
+        let icon = e.target;
+        if(icon.classList.contains('icon-radio-botton1')){
+            icon.classList.add('icon-radio-botton-active');
+            icon.classList.remove('icon-radio-botton1');
+        }
+        else{
+            icon.classList.add('icon-radio-botton1');
+            icon.classList.remove('icon-radio-botton-active');
+        }
+    }   
+
+    countryCheckIcon.forEach(icon => {
+        icon.addEventListener("click", onActiveCheckIcon)
+    })
 
     function hamburgListHandler() {
         if(navbarSmall.classList.contains('hidden')){

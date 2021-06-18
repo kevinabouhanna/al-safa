@@ -22792,7 +22792,7 @@ body{
 }
 
 .shadow-outter-dash {
-  --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+  --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -22847,7 +22847,7 @@ body{
 }
 
 .group:hover .group-hover\:shadow-outter-dash {
-  --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+  --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -22902,7 +22902,7 @@ body{
 }
 
 .focus-within\:shadow-outter-dash:focus-within {
-  --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+  --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -22957,7 +22957,7 @@ body{
 }
 
 .hover\:shadow-outter-dash:hover {
-  --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+  --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -23012,7 +23012,7 @@ body{
 }
 
 .focus\:shadow-outter-dash:focus {
-  --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+  --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -55586,7 +55586,7 @@ body{
   }
 
   .sm\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -55641,7 +55641,7 @@ body{
   }
 
   .group:hover .sm\:group-hover\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -55696,7 +55696,7 @@ body{
   }
 
   .sm\:focus-within\:shadow-outter-dash:focus-within {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -55751,7 +55751,7 @@ body{
   }
 
   .sm\:hover\:shadow-outter-dash:hover {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -55806,7 +55806,7 @@ body{
   }
 
   .sm\:focus\:shadow-outter-dash:focus {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -88214,7 +88214,7 @@ body{
   }
 
   .md\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -88269,7 +88269,7 @@ body{
   }
 
   .group:hover .md\:group-hover\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -88324,7 +88324,7 @@ body{
   }
 
   .md\:focus-within\:shadow-outter-dash:focus-within {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -88379,7 +88379,7 @@ body{
   }
 
   .md\:hover\:shadow-outter-dash:hover {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -88434,7 +88434,7 @@ body{
   }
 
   .md\:focus\:shadow-outter-dash:focus {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -120842,7 +120842,7 @@ body{
   }
 
   .lg\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -120897,7 +120897,7 @@ body{
   }
 
   .group:hover .lg\:group-hover\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -120952,7 +120952,7 @@ body{
   }
 
   .lg\:focus-within\:shadow-outter-dash:focus-within {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -121007,7 +121007,7 @@ body{
   }
 
   .lg\:hover\:shadow-outter-dash:hover {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -121062,7 +121062,7 @@ body{
   }
 
   .lg\:focus\:shadow-outter-dash:focus {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -153470,7 +153470,7 @@ body{
   }
 
   .xl\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -153525,7 +153525,7 @@ body{
   }
 
   .group:hover .xl\:group-hover\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -153580,7 +153580,7 @@ body{
   }
 
   .xl\:focus-within\:shadow-outter-dash:focus-within {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -153635,7 +153635,7 @@ body{
   }
 
   .xl\:hover\:shadow-outter-dash:hover {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -153690,7 +153690,7 @@ body{
   }
 
   .xl\:focus\:shadow-outter-dash:focus {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -186098,7 +186098,7 @@ body{
   }
 
   .\32xl\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -186153,7 +186153,7 @@ body{
   }
 
   .group:hover .\32xl\:group-hover\:shadow-outter-dash {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -186208,7 +186208,7 @@ body{
   }
 
   .\32xl\:focus-within\:shadow-outter-dash:focus-within {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -186263,7 +186263,7 @@ body{
   }
 
   .\32xl\:hover\:shadow-outter-dash:hover {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -186318,7 +186318,7 @@ body{
   }
 
   .\32xl\:focus\:shadow-outter-dash:focus {
-    --tw-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+    --tw-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.4);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
