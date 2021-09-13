@@ -47,22 +47,22 @@
     <a href="articles.php" class="leading-10 hover:text-red-800 border-0 py-5 mt-4 md:mt-0 hover:bg-red-300 md:hover:bg-transparent hover:border-red-800 ">
             موقف   
         </a>
-        <a href="#" class="leading-10  hover:text-red-800 py-5 border-0 md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+        <a href="podcast.php" class="leading-10  hover:text-red-800 py-5 border-0  hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent md:hover:shadow-nav-underline">
             بالتفصيل   
         </a>
-        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+        <a href="dashboard.php" class="leading-10 hover:text-red-800 py-5 border-0   hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent md:hover:shadow-nav-underline">
             بالعربي 
         </a>
-        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+        <a href="sign_up.php" class="leading-10 hover:text-red-800 py-5 border-0   hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent md:hover:shadow-nav-underline">
             لا سياسي    
         </a>
-        <a href="#" class="leading-10 hover:text-red-800 py-5  border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+        <a href="podcast_single_share.php" class="leading-10 hover:text-red-800 py-5  border-0   hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent md:hover:shadow-nav-underline">
             وثيقة   
         </a>
-        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0 md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+        <a href="articles.php" class="leading-10 hover:text-red-800 py-5 border-0  hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent md:hover:shadow-nav-underline">
             اضبارة  
         </a>
-        <a href="#" class="leading-10 hover:text-red-800 py-5 border-0  md:hover:border-b hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent">
+        <a href="about.php" class="leading-10 hover:text-red-800 py-5 border-0   hover:border-red-800 hover:bg-red-300 md:hover:bg-transparent md:hover:shadow-nav-underline">
             صوت و صورة  
         </a>
         <div class="md:hidden flex flex-col items-start justify-start pb-10">
