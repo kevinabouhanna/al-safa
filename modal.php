@@ -34,7 +34,7 @@
                         <button
                             class="mr-4 bg-red-800 text-white rounded-full pl-2 pr-3 flex items-center justify-between hover:bg-red-700 focus:bg-red-600 focus:outline-none text-base font-sans py-2">
                             <p class="px-1.5 ml-2.5 leading-6">
-                                إشترك الآن
+                               إشترك الآن
                             </p>
                         </button>
                         </div>

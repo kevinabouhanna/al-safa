@@ -29,7 +29,7 @@
                 <div class="grid grid-col-1 gap-y-3">
                     <button class="bg-white text-lg h-20 shadow p-2 rounded w-full flex items-center justify-center gap-2 px-12">
                         <i class="icon-mail"></i>
-                            تسجيل الدخول عبر البريد الإلكتروني
+                           تسجيل الدخول عبر البريد الإلكتروني
                     </button>
                     <button class="bg-white h-20 text-lg shadow p-2 rounded w-full flex items-center justify-center gap-2">
                         <img src="images/google.png" alt="" style="width: 24px;height: 24px">

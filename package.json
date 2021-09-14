@@ -1,6 +1,6 @@
 {
   "name": "al-safa-project-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Codeminos/al-safa-project-design/issues"
+    "url": "https://github.com/kevinabouhanna/al-safa/issues"
   },
-  "homepage": "https://github.com/Codeminos/al-safa-project-design#readme"
+  "homepage": "https://github.com/kevinabouhanna/al-safa#readme"
 }

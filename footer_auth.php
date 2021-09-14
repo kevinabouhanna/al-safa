@@ -10,7 +10,7 @@
             © 2020 Safa news &nbsp;
         </div>
         <div>
-            |   Website by Maze.
+            |  Website by Maze.
         </div>
     </div>
 </div>
