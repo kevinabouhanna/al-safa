@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Alsafa News/media/icons/system/progress indicator</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Alsafa-News/media/icons/system/progress-indicator">
-            <circle id="Oval" stroke="#FFFFFF" cx="12" cy="12" r="11"></circle>
-            <path d="M12,23 C18.0751322,23 23,18.0751322 23,12 C23,5.92486775 18.0751322,1 12,1 C5.92486775,1 1,5.92486775 1,12 C1,18.0751322 5.92486775,23 12,23 Z" id="Oval" stroke="#262626" stroke-dasharray="30,40"></path>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1.1" viewBox="0 0 24 24"><title>Alsafa News/media/icons/system/progress indicator</title><g id="Symbols" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="Alsafa-News/media/icons/system/progress-indicator"><circle id="Oval" cx="12" cy="12" r="11" stroke="#FFF"/><path id="Oval" stroke="#262626" stroke-dasharray="30 40" d="M12,23 C18.0751322,23 23,18.0751322 23,12 C23,5.92486775 18.0751322,1 12,1 C5.92486775,1 1,5.92486775 1,12 C1,18.0751322 5.92486775,23 12,23 Z"/></g></g></svg>

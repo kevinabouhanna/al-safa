@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Alsafa News/media/icons/system/open dialog</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Alsafa-News/media/icons/system/open-dialog">
-            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
-            <rect id="Rectangle" fill="#262626" x="5" y="6" width="13" height="14" rx="2"></rect>
-            <rect id="Rectangle-Copy" fill="#262626" x="7.14285714" y="2" width="14.8571429" height="16" rx="2"></rect>
-            <rect id="Rectangle-Copy" fill="#FFFFFF" x="8" y="3" width="13" height="14" rx="2"></rect>
-            <g id="Group" transform="translate(10.000000, 5.000000)" fill="#262626">
-                <path d="M4.0905903,0.701344243 C4.0905903,1.08708358 4.40619521,1.40268849 4.79193454,1.40268849 L6.60841613,1.40268849 L0.205143191,7.80596143 C-0.0683810637,8.07948568 -0.0683810637,8.52133255 0.205143191,8.79485681 C0.478667446,9.06838106 0.920514319,9.06838106 1.19403857,8.79485681 L7.59731151,2.39158387 L7.59731151,4.20806546 C7.59731151,4.59380479 7.91291642,4.9094097 8.29865576,4.9094097 C8.68439509,4.9094097 9,4.59380479 9,4.20806546 L9,0.701344243 C9,0.315604909 8.68439509,0 8.29865576,0 L4.79193454,0 C4.40619521,0 4.0905903,0.315604909 4.0905903,0.701344243 Z" id="Path"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1.1" viewBox="0 0 24 24"><title>Alsafa News/media/icons/system/open dialog</title><g id="Symbols" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="Alsafa-News/media/icons/system/open-dialog"><polygon id="Path" points="0 0 24 0 24 24 0 24"/><rect id="Rectangle" width="13" height="14" x="5" y="6" fill="#262626" rx="2"/><rect id="Rectangle-Copy" width="14.857" height="16" x="7.143" y="2" fill="#262626" rx="2"/><rect id="Rectangle-Copy" width="13" height="14" x="8" y="3" fill="#FFF" rx="2"/><g id="Group" fill="#262626" transform="translate(10.000000, 5.000000)"><path id="Path" d="M4.0905903,0.701344243 C4.0905903,1.08708358 4.40619521,1.40268849 4.79193454,1.40268849 L6.60841613,1.40268849 L0.205143191,7.80596143 C-0.0683810637,8.07948568 -0.0683810637,8.52133255 0.205143191,8.79485681 C0.478667446,9.06838106 0.920514319,9.06838106 1.19403857,8.79485681 L7.59731151,2.39158387 L7.59731151,4.20806546 C7.59731151,4.59380479 7.91291642,4.9094097 8.29865576,4.9094097 C8.68439509,4.9094097 9,4.59380479 9,4.20806546 L9,0.701344243 C9,0.315604909 8.68439509,0 8.29865576,0 L4.79193454,0 C4.40619521,0 4.0905903,0.315604909 4.0905903,0.701344243 Z"/></g></g></g></svg>
